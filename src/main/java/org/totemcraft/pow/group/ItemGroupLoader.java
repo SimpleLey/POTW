@@ -6,6 +6,7 @@ import com.google.gson.JsonElement;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,7 @@ import net.minecraftforge.registries.RegistryObject;
 import org.totemcraft.pow.PicnicOfTheWorld;
 import org.totemcraft.pow.item.ItemDefinition;
 import org.totemcraft.pow.loader.ContentLoader;
+import org.totemcraft.pow.localization.LocalizedComponentContents;
 import org.totemcraft.pow.util.Json;
 
 import java.nio.file.Path;
@@ -62,7 +64,7 @@ public enum ItemGroupLoader implements ContentLoader<CreativeModeTab> {
         loadedItems.put(
                 definition.getId().getPath(),
                 register.register(definition.getId().getPath(), () -> CreativeModeTab.builder()
-                        .title(Component.translatable(""))
+                        .title(MutableComponent.create(new LocalizedComponentContents(definition.getDisplayName())))
                         .icon(() -> Optional.ofNullable(tabItems.get(definition.getId()))
                                 .map(it -> !it.isEmpty() ? it.get(0) : null)
                                 .map(it -> new ItemStack(it.asItem(), 1))
