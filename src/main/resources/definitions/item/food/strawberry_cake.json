@@ -1,0 +1,14 @@
+{
+  "id": "strawberry_cake",
+  "displayName": {
+    "en_us": "Strawberry Cake",
+    "zh_cn": "草莓蛋糕"
+  },
+  "feature": {
+    "layer": "pow:item/food/strawberry_cake"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

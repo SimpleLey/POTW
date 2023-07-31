@@ -1,0 +1,14 @@
+{
+  "id": "lemon_fruit",
+  "displayName": {
+    "en_us": "Lemon Fruit",
+    "zh_cn": "柠檬果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/lemon_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

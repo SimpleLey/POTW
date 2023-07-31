@@ -1,0 +1,14 @@
+{
+  "id": "vine_chili_fruit",
+  "displayName": {
+    "en_us": "Vine Chili Fruit",
+    "zh_cn": "藤椒果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/vine_chili_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

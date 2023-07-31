@@ -11,6 +11,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.totemcraft.pow.PicnicOfTheWorld;
+import org.totemcraft.pow.R;
+import org.totemcraft.pow.block.type.PBlockItem;
+import org.totemcraft.pow.client.BlockStateGenerator;
+import org.totemcraft.pow.client.BlockModelGenerator;
 import org.totemcraft.pow.loader.ContentLoader;
 import org.totemcraft.pow.util.Json;
 
@@ -36,7 +40,7 @@ public enum BlockLoader implements ContentLoader<Block> {
 
     @Override
     public List<Path> contentDirs(Path root) {
-        return List.of(root.resolve("blocks"));
+        return List.of(root.resolve("block"));
     }
 
     @Override
@@ -45,7 +49,7 @@ public enum BlockLoader implements ContentLoader<Block> {
 
         var registryItem = register.register(definition.getId().getPath(), () -> {
             var block = definition.build();
-            itemRegister.register(definition.getId().getPath(), () -> new BlockItem(block, new Item.Properties()));
+            itemRegister.register(definition.getId().getPath(), () -> new PBlockItem(block, new Item.Properties(), definition));
             return block;
         });
         loadedBlocks.put(definition.getId().toString(), registryItem);
@@ -54,7 +58,38 @@ public enum BlockLoader implements ContentLoader<Block> {
 
     @Override
     public BlockModel getExtraBlockModel(ResourceLocation location) {
-        System.out.println("getExtraBlockModel: " + location);
-        return ContentLoader.super.getExtraBlockModel(location);
+        if (location.getPath().startsWith("item/")) {
+            var id = location.getPath().substring("item/".length());
+            var definition = loadedDefinitions.get(R.location(id).toString());
+
+            if (definition == null) return null;
+            try {
+                if (definition.getFeature().getLayer() != null) {
+                    return BlockModelGenerator.layer(definition.getFeature().getLayer().toString());
+                } else if (definition.getFeature().getModel() != null){
+                    return BlockModelGenerator.parent(definition.getFeature().getModel().toString());
+                }
+            } catch (Exception e) {
+                PicnicOfTheWorld.getLogger().error("Failed to load layer model for " + id, e);
+            }
+        }
+
+        return null;
+    }
+
+    @Override
+    public String getExtraBlockState(ResourceLocation location) {
+        // remove prefix "blockstates/" and suffix ".json"
+        var id = location.getPath().replaceFirst("^blockstates/", "").replaceFirst(".json$", "");
+        if (id.isBlank()) return null;
+
+        var definition = loadedDefinitions.get(R.location(id).toString());
+        if (definition == null) return null;
+
+        if (definition.getFeature().getModel() != null) {
+            return BlockStateGenerator.of(definition.getFeature().getModel().toString());
+        }
+
+        return null;
     }
 }

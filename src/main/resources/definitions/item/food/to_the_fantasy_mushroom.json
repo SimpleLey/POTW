@@ -1,0 +1,14 @@
+{
+  "id": "to_the_fantasy_mushroom",
+  "displayName": {
+    "en_us": "To The Fantasy Mushroom",
+    "zh_cn": "致幻蘑菇"
+  },
+  "feature": {
+    "layer": "pow:item/food/to_the_fantasy_mushroom"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

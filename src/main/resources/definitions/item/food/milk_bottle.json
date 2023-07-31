@@ -1,0 +1,14 @@
+{
+  "id": "milk_bottle",
+  "displayName": {
+    "en_us": "Milk Bottle",
+    "zh_cn": "牛奶瓶"
+  },
+  "feature": {
+    "layer": "pow:item/food/milk_bottle"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

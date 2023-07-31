@@ -1,6 +1,6 @@
 {
   "id": "jacaranda",
-  "type": "plant",
+  "type": "flower",
   "displayName": {
     "en_us": "Jacaranda",
     "zh_cn": "兰楹花"
@@ -13,6 +13,6 @@
   "ignitedByLava": true,
   "dynamicShape": true,
   "feature": {
-
+    "model": "block/plant/jacaranda"
   }
 }

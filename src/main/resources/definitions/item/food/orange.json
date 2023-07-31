@@ -1,0 +1,14 @@
+{
+  "id": "orange",
+  "displayName": {
+    "en_us": "Orange",
+    "zh_cn": "橙子"
+  },
+  "feature": {
+    "layer": "pow:item/food/orange"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

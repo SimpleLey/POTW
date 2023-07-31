@@ -11,7 +11,7 @@ public interface R {
     @SneakyThrows
     static Path rootPath() {
         // 获取jar包目录
-        var url = R.class.getResource("/definition");
+        var url = R.class.getResource("/definitions");
         assert url != null;
         return Path.of(url.toURI());
     }

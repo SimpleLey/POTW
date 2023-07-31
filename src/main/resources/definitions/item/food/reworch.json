@@ -1,0 +1,14 @@
+{
+  "id": "reworch",
+  "displayName": {
+    "en_us": "Reworch",
+    "zh_cn": "松露"
+  },
+  "feature": {
+    "layer": "pow:item/food/reworch"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

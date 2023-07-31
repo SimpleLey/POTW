@@ -1,0 +1,14 @@
+{
+  "id": "strawberry",
+  "displayName": {
+    "en_us": "Strawberry",
+    "zh_cn": "草莓果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/strawberry"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

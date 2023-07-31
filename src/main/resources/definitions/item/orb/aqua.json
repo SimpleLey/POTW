@@ -1,0 +1,10 @@
+{
+  "id": "aqua_orb",
+  "displayName": {
+    "en_us": "Aqua Orb",
+    "zh_cn": "青色宝石"
+  },
+  "feature": {
+    "layer": "pow:item/orb/aqua"
+  }
+}

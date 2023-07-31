@@ -1,0 +1,14 @@
+{
+  "id": "corn_fruit",
+  "displayName": {
+    "en_us": "Corn Fruit",
+    "zh_cn": "玉米果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/corn_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

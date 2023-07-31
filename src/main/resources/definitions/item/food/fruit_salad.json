@@ -1,0 +1,14 @@
+{
+  "id": "fruit_salad",
+  "displayName": {
+    "en_us": "Fruit Salad",
+    "zh_cn": "水果沙拉"
+  },
+  "feature": {
+    "layer": "pow:item/food/fruit_salad"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

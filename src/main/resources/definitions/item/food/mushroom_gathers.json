@@ -1,0 +1,14 @@
+{
+  "id": "mushroom_gathers",
+  "displayName": {
+    "en_us": "Mushroom Gathers",
+    "zh_cn": "蘑菇荟萃"
+  },
+  "feature": {
+    "layer": "pow:item/food/mushroom_gathers"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

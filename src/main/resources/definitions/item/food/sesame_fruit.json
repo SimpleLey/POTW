@@ -1,0 +1,14 @@
+{
+  "id": "sesame_fruit",
+  "displayName": {
+    "en_us": "Sesame Fruit",
+    "zh_cn": "芝麻果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/sesame_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

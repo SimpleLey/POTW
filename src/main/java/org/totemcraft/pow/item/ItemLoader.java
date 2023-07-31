@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.totemcraft.pow.PicnicOfTheWorld;
 import org.totemcraft.pow.R;
-import org.totemcraft.pow.client.LayerBlockModelGenerator;
+import org.totemcraft.pow.client.BlockModelGenerator;
 import org.totemcraft.pow.loader.ContentLoader;
 import org.totemcraft.pow.util.Json;
 
@@ -33,7 +33,7 @@ public enum ItemLoader implements ContentLoader<Item> {
 
     @Override
     public List<Path> contentDirs(Path jar) {
-        return List.of(jar.resolve("items"));
+        return List.of(jar.resolve("item"));
     }
 
     @Override
@@ -61,7 +61,7 @@ public enum ItemLoader implements ContentLoader<Item> {
         if (definition == null) return null;
 
         if (definition.getFeature().getLayer() != null) try {
-            return LayerBlockModelGenerator.from(definition.getFeature().getLayer());
+            return BlockModelGenerator.layer(definition.getFeature().getLayer().toString());
         } catch (Exception e) {
             PicnicOfTheWorld.getLogger().error("Failed to load layer model for " + id, e);
         }

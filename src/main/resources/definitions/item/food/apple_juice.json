@@ -1,0 +1,14 @@
+{
+  "id": "apple_juice",
+  "displayName": {
+    "en_us": "Apple Juice",
+    "zh_cn": "苹果汁"
+  },
+  "feature": {
+    "layer": "pow:item/food/apple_juice"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

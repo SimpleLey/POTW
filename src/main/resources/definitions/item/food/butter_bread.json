@@ -1,0 +1,14 @@
+{
+  "id": "butter_bread",
+  "displayName": {
+    "en_us": "Butter Bread",
+    "zh_cn": "黄油面包"
+  },
+  "feature": {
+    "layer": "pow:item/food/butter_bread"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

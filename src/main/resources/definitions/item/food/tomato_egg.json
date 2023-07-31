@@ -1,0 +1,14 @@
+{
+  "id": "tomato_egg",
+  "displayName": {
+    "en_us": "Tomato Egg",
+    "zh_cn": "番茄炒蛋"
+  },
+  "feature": {
+    "layer": "pow:item/food/tomato_egg"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

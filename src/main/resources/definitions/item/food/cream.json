@@ -1,0 +1,14 @@
+{
+  "id": "cream",
+  "displayName": {
+    "en_us": "Cream",
+    "zh_cn": "鹅膏菌"
+  },
+  "feature": {
+    "layer": "pow:item/food/cream"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cheese",
+  "displayName": {
+    "en_us": "Cheese",
+    "zh_cn": "奶酪"
+  },
+  "feature": {
+    "layer": "pow:item/food/cheese"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

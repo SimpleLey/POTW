@@ -2,8 +2,8 @@ package org.totemcraft.pow.client;
 
 import net.minecraft.client.renderer.block.model.BlockModel;
 
-public interface LayerBlockModelGenerator {
-    static BlockModel from(String layer0) {
+public interface BlockModelGenerator {
+    static BlockModel layer(String layer0) {
         return BlockModel.fromString("""
                 {
                   "parent": "minecraft:item/generated",
@@ -12,5 +12,12 @@ public interface LayerBlockModelGenerator {
                   }
                 }
                 """.formatted(layer0));
+    }
+    static BlockModel parent(String parent) {
+        return BlockModel.fromString("""
+                {
+                  "parent": "%s"
+                }
+                """.formatted(parent));
     }
 }

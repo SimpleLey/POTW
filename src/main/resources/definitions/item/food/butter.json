@@ -1,0 +1,14 @@
+{
+  "id": "butter",
+  "displayName": {
+    "en_us": "Butter",
+    "zh_cn": "黄油"
+  },
+  "feature": {
+    "layer": "pow:item/food/butter"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "tomato",
+  "displayName": {
+    "en_us": "Tomato",
+    "zh_cn": "西红柿"
+  },
+  "feature": {
+    "layer": "pow:item/food/tomato"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

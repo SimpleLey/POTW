@@ -1,0 +1,10 @@
+{
+  "id": "aquamarine",
+  "displayName": {
+    "en_us": "Aquamarine",
+    "zh_cn": "海蓝宝石"
+  },
+  "feature": {
+    "layer": "pow:item/gem/aquamarine"
+  }
+}

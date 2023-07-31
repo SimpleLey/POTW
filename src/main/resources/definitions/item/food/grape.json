@@ -1,0 +1,14 @@
+{
+  "id": "grape",
+  "displayName": {
+    "en_us": "Grape",
+    "zh_cn": "葡萄"
+  },
+  "feature": {
+    "layer": "pow:item/food/grape"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

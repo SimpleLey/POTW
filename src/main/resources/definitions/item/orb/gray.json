@@ -1,0 +1,10 @@
+{
+  "id": "gray_orb",
+  "displayName": {
+    "en_us": "Gray Orb",
+    "zh_cn": "灰色宝石"
+  },
+  "feature": {
+    "layer": "pow:item/orb/gray"
+  }
+}

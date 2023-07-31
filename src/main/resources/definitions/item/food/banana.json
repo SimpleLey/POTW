@@ -1,0 +1,14 @@
+{
+  "id": "banana",
+  "displayName": {
+    "en_us": "Banana",
+    "zh_cn": "香蕉"
+  },
+  "feature": {
+    "layer": "pow:item/food/banana"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "blueberry_jam",
+  "displayName": {
+    "en_us": "Blueberry Jam",
+    "zh_cn": "蓝莓酱"
+  },
+  "feature": {
+    "layer": "pow:item/food/blueberry_jam"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

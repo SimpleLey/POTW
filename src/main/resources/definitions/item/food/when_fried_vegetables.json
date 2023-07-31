@@ -1,0 +1,14 @@
+{
+  "id": "when_fried_vegetables",
+  "displayName": {
+    "en_us": "When Fried Vegetables",
+    "zh_cn": "清炒时蔬"
+  },
+  "feature": {
+    "layer": "pow:item/food/when_fried_vegetables"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

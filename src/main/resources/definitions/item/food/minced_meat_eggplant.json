@@ -1,0 +1,14 @@
+{
+  "id": "minced_meat_eggplant",
+  "displayName": {
+    "en_us": "Minced Meat Eggplant",
+    "zh_cn": "肉末茄子"
+  },
+  "feature": {
+    "layer": "pow:item/food/minced_meat_eggplant"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "onion_(crop)",
+  "displayName": {
+    "en_us": "Onion (crop)",
+    "zh_cn": "葱（作物）"
+  },
+  "feature": {
+    "layer": "pow:item/food/onion_(crop)"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

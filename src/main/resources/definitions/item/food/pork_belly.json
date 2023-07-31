@@ -1,0 +1,14 @@
+{
+  "id": "pork_belly",
+  "displayName": {
+    "en_us": "Pork Belly",
+    "zh_cn": "五花肉"
+  },
+  "feature": {
+    "layer": "pow:item/food/pork_belly"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

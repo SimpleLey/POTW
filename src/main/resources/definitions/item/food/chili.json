@@ -1,0 +1,14 @@
+{
+  "id": "chili",
+  "displayName": {
+    "en_us": "Chili",
+    "zh_cn": "辣椒"
+  },
+  "feature": {
+    "layer": "pow:item/food/chili"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

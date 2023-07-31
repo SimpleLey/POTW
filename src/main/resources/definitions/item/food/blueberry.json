@@ -1,0 +1,14 @@
+{
+  "id": "blueberry",
+  "displayName": {
+    "en_us": "Blueberry",
+    "zh_cn": "蓝莓"
+  },
+  "feature": {
+    "layer": "pow:item/food/blueberry"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

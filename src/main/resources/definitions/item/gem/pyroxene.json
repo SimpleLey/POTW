@@ -1,0 +1,10 @@
+{
+  "id": "pyroxene",
+  "displayName": {
+    "en_us": "Pyroxene",
+    "zh_cn": "辉石"
+  },
+  "feature": {
+    "layer": "pow:item/gem/pyroxene"
+  }
+}

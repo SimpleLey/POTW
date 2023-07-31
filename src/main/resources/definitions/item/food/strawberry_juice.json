@@ -1,0 +1,14 @@
+{
+  "id": "strawberry_juice",
+  "displayName": {
+    "en_us": "Strawberry Juice",
+    "zh_cn": "草莓汁"
+  },
+  "feature": {
+    "layer": "pow:item/food/strawberry_juice"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

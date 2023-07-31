@@ -1,0 +1,14 @@
+{
+  "id": "raspberry_sauce",
+  "displayName": {
+    "en_us": "Raspberry Sauce",
+    "zh_cn": "树莓酱"
+  },
+  "feature": {
+    "layer": "pow:item/food/raspberry_sauce"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -4,6 +4,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import lombok.SneakyThrows;
 import net.minecraft.client.renderer.block.model.BlockModel;
+import net.minecraft.client.resources.model.ModelBakery;
 import net.minecraft.resources.ResourceLocation;
 import org.totemcraft.pow.PicnicOfTheWorld;
 import org.totemcraft.pow.R;
@@ -55,6 +56,9 @@ public interface ContentLoader<T> {
     default BlockModel getExtraBlockModel(ResourceLocation location) {
         return null;
     }
+    default String getExtraBlockState(ResourceLocation location) {
+        return null;
+    }
 
     ContentLoader<?>[] Loaders = new ContentLoader[]{
             ItemGroupLoader.INSTANCE,
@@ -72,6 +76,17 @@ public interface ContentLoader<T> {
         for (ContentLoader<?> loader : Loaders) {
             var model = loader.getExtraBlockModel(location);
             if (model != null) return model;
+        }
+        return null;
+    }
+
+    static ModelBakery.LoadedJson findExtraBlockState(ResourceLocation location) {
+        for (ContentLoader<?> loader : Loaders) {
+            var jsonStr = loader.getExtraBlockState(location);
+            if (jsonStr != null) {
+                var json = Json.from(jsonStr, JsonElement.class);
+                return new ModelBakery.LoadedJson(jsonStr, json);
+            }
         }
         return null;
     }

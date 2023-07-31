@@ -1,0 +1,10 @@
+{
+  "id": "adamas",
+  "displayName": {
+    "en_us": "Adamas",
+    "zh_cn": "金刚石"
+  },
+  "feature": {
+    "layer": "pow:item/gem/adamas"
+  }
+}

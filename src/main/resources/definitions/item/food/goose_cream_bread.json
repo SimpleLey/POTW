@@ -1,0 +1,14 @@
+{
+  "id": "goose_cream_bread",
+  "displayName": {
+    "en_us": "Goose Cream Bread",
+    "zh_cn": "鹅膏菌面包"
+  },
+  "feature": {
+    "layer": "pow:item/food/goose_cream_bread"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

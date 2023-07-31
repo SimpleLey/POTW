@@ -6,7 +6,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.GrassBlock;
-import net.minecraft.world.level.block.TallGrassBlock;
 import org.jetbrains.annotations.Nullable;
 import org.totemcraft.pow.block.BlockDefinition;
 

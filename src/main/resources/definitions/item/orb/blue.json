@@ -1,0 +1,10 @@
+{
+  "id": "blue_orb",
+  "displayName": {
+    "en_us": "Blue Orb",
+    "zh_cn": "蓝色宝石"
+  },
+  "feature": {
+    "layer": "pow:item/orb/blue"
+  }
+}

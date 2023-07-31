@@ -47,7 +47,7 @@ public enum ItemGroupLoader implements ContentLoader<CreativeModeTab> {
 
     @Override
     public List<Path> contentDirs(Path root) {
-        return List.of(root.resolve("creativeTabs"));
+        return List.of(root.resolve("creativeTab"));
     }
 
     @Override
