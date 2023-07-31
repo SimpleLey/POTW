@@ -1,0 +1,11 @@
+{
+  "id": "boxed_eggplant",
+  "displayName": {
+    "en_us": "Boxed Eggplant",
+    "zh_cn": "箱装茄子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/boxed_eggplant"
+  }
+}

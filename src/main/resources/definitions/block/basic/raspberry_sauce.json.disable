@@ -1,0 +1,11 @@
+{
+  "id": "raspberry_sauce",
+  "displayName": {
+    "en_us": "Raspberry Sauce",
+    "zh_cn": "树莓酱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/raspberry_sauce"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "resource_town_gift_box",
+  "displayName": {
+    "en_us": "Resource Town Gift Box",
+    "zh_cn": "资源小镇礼物盒"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/resource_town_gift_box"
+  }
+}

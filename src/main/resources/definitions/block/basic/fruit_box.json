@@ -1,0 +1,11 @@
+{
+  "id": "fruit_box",
+  "displayName": {
+    "en_us": "Fruit Box",
+    "zh_cn": "蔬果箱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/fruit_box"
+  }
+}

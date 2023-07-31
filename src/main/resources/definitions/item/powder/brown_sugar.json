@@ -1,0 +1,10 @@
+{
+  "id": "brown_sugar",
+  "displayName": {
+    "en_us": "Brown Sugar",
+    "zh_cn": "红糖"
+  },
+  "feature": {
+    "layer": "pow:item/powder/brown_sugar"
+  }
+}

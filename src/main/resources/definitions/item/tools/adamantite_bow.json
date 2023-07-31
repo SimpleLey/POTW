@@ -1,0 +1,9 @@
+{
+	"id": "adamantite_bow",
+	"group": "tools",
+	"type": "bow",
+	"displayName": {
+		"en_us": "Adamantite Bow",
+		"zh_cn": "精金弓"
+	}
+}

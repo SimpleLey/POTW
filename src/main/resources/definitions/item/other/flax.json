@@ -1,0 +1,10 @@
+{
+  "id": "flax",
+  "displayName": {
+    "en_us": "Flax",
+    "zh_cn": "亚麻"
+  },
+  "feature": {
+    "layer": "pow:item/other/flax"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wine_table",
+  "displayName": {
+    "en_us": "Wine Table",
+    "zh_cn": "酒桌"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/wine_table"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "golden_lamp",
+  "displayName": {
+    "en_us": "Golden Lamp",
+    "zh_cn": "黄金提灯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/golden_lamp"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "crate",
+  "displayName": {
+    "en_us": "Crate",
+    "zh_cn": "板条箱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/crate"
+  }
+}

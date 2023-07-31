@@ -1,0 +1,11 @@
+{
+  "id": "park_bench_right",
+  "displayName": {
+    "en_us": "Park Bench Right",
+    "zh_cn": "公园长椅右面"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/park_bench_right"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "medieval_tall_chair",
+  "displayName": {
+    "en_us": "Medieval Tall Chair",
+    "zh_cn": "中世纪高脚椅"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/medieval_tall_chair"
+  }
+}

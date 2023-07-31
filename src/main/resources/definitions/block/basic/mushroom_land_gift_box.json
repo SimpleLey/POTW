@@ -1,0 +1,11 @@
+{
+  "id": "mushroom_land_gift_box",
+  "displayName": {
+    "en_us": "Mushroom Land Gift Box",
+    "zh_cn": "蘑菇地礼物盒"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/mushroom_land_gift_box"
+  }
+}

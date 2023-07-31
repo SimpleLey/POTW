@@ -1,0 +1,11 @@
+{
+  "id": "lamp",
+  "displayName": {
+    "en_us": "Lamp",
+    "zh_cn": "提灯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/lamp"
+  }
+}

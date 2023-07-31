@@ -1,0 +1,11 @@
+{
+  "id": "street_lamp",
+  "displayName": {
+    "en_us": "Street Lamp",
+    "zh_cn": "路灯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/street_lamp"
+  }
+}

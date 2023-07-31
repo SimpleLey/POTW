@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Tiers;
 import org.totemcraft.pow.R;
 import org.totemcraft.pow.group.ItemGroupLoader;
 import org.totemcraft.pow.localization.LocalizationStrings;
@@ -13,6 +14,7 @@ import org.totemcraft.pow.localization.LocalizationStrings;
 @NoArgsConstructor
 public class ItemDefinition {
     private ResourceLocation id;
+    private String type = "item";
     private LocalizationStrings displayName;
     private ResourceLocation group = R.location("items");
 
@@ -22,7 +24,9 @@ public class ItemDefinition {
     private Rarity rarity = Rarity.COMMON;
     private FoodDefinition food;
     private LocalizationStrings lores;
-    private ItemFeature feature;
+    private SwordDefinition sword = new SwordDefinition();
+    private Tiers tier;
+    private ItemFeature feature = new ItemFeature();
 
     public Item build() {
         var properties = new Item.Properties()
@@ -33,7 +37,14 @@ public class ItemDefinition {
 
         if (food != null) properties.food(food.build());
 
-        var item = new PItem(properties, this);
+        Item item;
+        if (type.equals("bow")) {
+            item = new PBowItem(properties, this);
+        } else if (type.equalsIgnoreCase("sword")) {
+            item = new PSwordItem(properties, this);
+        } else {
+            item = new PItem(properties, this);
+        }
 
         if (group != null) {
             ItemGroupLoader.INSTANCE.addTabItem(group, item);

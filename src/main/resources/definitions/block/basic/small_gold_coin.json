@@ -1,0 +1,11 @@
+{
+  "id": "small_gold_coin",
+  "displayName": {
+    "en_us": "Small Gold Coin",
+    "zh_cn": "小金币堆"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/small_gold_coin"
+  }
+}

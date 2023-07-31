@@ -1,0 +1,10 @@
+{
+  "id": "golden_soul",
+  "displayName": {
+    "en_us": "Golden Soul",
+    "zh_cn": "黄金灵魂"
+  },
+  "feature": {
+    "layer": "pow:item/other/golden_soul"
+  }
+}

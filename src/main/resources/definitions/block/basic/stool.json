@@ -1,0 +1,11 @@
+{
+  "id": "stool",
+  "displayName": {
+    "en_us": "Stool",
+    "zh_cn": "酒凳"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/stool"
+  }
+}

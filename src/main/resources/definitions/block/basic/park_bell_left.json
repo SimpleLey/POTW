@@ -1,0 +1,11 @@
+{
+  "id": "park_bell_left",
+  "displayName": {
+    "en_us": "Park Bell Left",
+    "zh_cn": "公园长椅左"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/park_bell_left"
+  }
+}

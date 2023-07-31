@@ -1,0 +1,10 @@
+{
+  "id": "salt",
+  "displayName": {
+    "en_us": "Salt",
+    "zh_cn": "盐"
+  },
+  "feature": {
+    "layer": "pow:item/powder/salt"
+  }
+}

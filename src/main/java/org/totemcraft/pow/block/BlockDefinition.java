@@ -43,8 +43,8 @@ public class BlockDefinition {
     private boolean randomTicks = false;
     private boolean instabreak = false;
     private boolean particlesOnBreak = true;
-    private boolean collission = false;
-    private boolean occlusion = false;
+    private boolean collission = true;
+    private boolean occlusion = true;
     private boolean replaceable = false;
 
     private BlockFeature feature = new BlockFeature();
@@ -70,8 +70,8 @@ public class BlockDefinition {
         if (randomTicks) properties.randomTicks();
         if (instabreak) properties.instabreak();
         if (!particlesOnBreak) properties.noParticlesOnBreak();
-        if (collission) properties.noCollission();
-        if (occlusion) properties.noOcclusion();
+        if (!collission) properties.noCollission();
+        if (!occlusion) properties.noOcclusion();
         if (replaceable) properties.replaceable();
 
         if (light != null) properties.lightLevel(state -> light);

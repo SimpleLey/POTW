@@ -1,0 +1,11 @@
+{
+  "id": "sunshade_umbrella_green",
+  "displayName": {
+    "en_us": "Sunshade Umbrella Green",
+    "zh_cn": "遮阳伞青"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/sunshade_umbrella_green"
+  }
+}

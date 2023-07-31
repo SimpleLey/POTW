@@ -1,0 +1,10 @@
+{
+  "id": "bronze_soul",
+  "displayName": {
+    "en_us": "Bronze Soul",
+    "zh_cn": "青铜灵魂"
+  },
+  "feature": {
+    "layer": "pow:item/other/bronze_soul"
+  }
+}

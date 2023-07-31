@@ -4,11 +4,8 @@
     "en_us": "Apple Sauce",
     "zh_cn": "苹果酱"
   },
+  "occlusion": false,
   "feature": {
-    "layer": "pow:item/food/apple_sauce"
-  },
-  "food": {
-    "nutrition": 5,
-    "saturationMod": 0.6
+    "model": "block/basic/apple_sauce"
   }
 }

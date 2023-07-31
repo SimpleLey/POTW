@@ -1,0 +1,11 @@
+{
+  "id": "gift_box_binghu_town",
+  "displayName": {
+    "en_us": "Gift Box Binghu Town",
+    "zh_cn": "礼物盒冰湖小镇"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/gift_box_binghu_town"
+  }
+}

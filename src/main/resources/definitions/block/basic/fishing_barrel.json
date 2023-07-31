@@ -1,0 +1,11 @@
+{
+  "id": "fishing_barrel",
+  "displayName": {
+    "en_us": "Fishing Barrel",
+    "zh_cn": "钓鱼桶"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/fishing_barrel"
+  }
+}

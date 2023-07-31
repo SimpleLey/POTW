@@ -1,0 +1,11 @@
+{
+  "id": "barrel",
+  "displayName": {
+    "en_us": "Barrel",
+    "zh_cn": "酒桶"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/barrel"
+  }
+}

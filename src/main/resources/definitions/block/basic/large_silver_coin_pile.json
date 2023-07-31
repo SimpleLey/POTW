@@ -1,0 +1,11 @@
+{
+  "id": "large_silver_coin_pile",
+  "displayName": {
+    "en_us": "Large Silver Coin Pile",
+    "zh_cn": "大银币堆"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/large_silver_coin_pile"
+  }
+}

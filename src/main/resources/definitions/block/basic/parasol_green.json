@@ -1,0 +1,11 @@
+{
+  "id": "parasol_green",
+  "displayName": {
+    "en_us": "Parasol Green",
+    "zh_cn": "遮阳伞绿"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/parasol_green"
+  }
+}

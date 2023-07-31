@@ -1,0 +1,11 @@
+{
+  "id": "floating_mushroom",
+  "displayName": {
+    "en_us": "Floating Mushroom",
+    "zh_cn": "漂浮菇"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/floating_mushroom"
+  }
+}

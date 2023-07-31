@@ -1,0 +1,10 @@
+{
+  "id": "ghost",
+  "displayName": {
+    "en_us": "Ghost",
+    "zh_cn": "鬼魂"
+  },
+  "feature": {
+    "layer": "pow:item/other/ghost"
+  }
+}
