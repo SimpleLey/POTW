@@ -1,0 +1,18 @@
+{
+  "id": "jacaranda",
+  "type": "plant",
+  "displayName": {
+    "en_us": "Jacaranda",
+    "zh_cn": "兰楹花"
+  },
+  "sound": "grass",
+  "offsetType": "xyz",
+  "replaceable": true,
+  "instabreak": true,
+  "collission": false,
+  "ignitedByLava": true,
+  "dynamicShape": true,
+  "feature": {
+
+  }
+}
