@@ -8,6 +8,7 @@ public class BlockFeature {
     private ResourceLocation model;
     private ResourceLocation layer;
     private boolean facing;
+    private String renderType;
 
     public boolean getFacing() {
         return facing;

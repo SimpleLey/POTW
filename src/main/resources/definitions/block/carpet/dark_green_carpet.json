@@ -1,0 +1,12 @@
+{
+  "id": "dark_green_carpet",
+  "type": "carpet",
+  "displayName": {
+    "en_us": "Dark Green Carpet",
+    "zh_cn": "深绿色地毯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/carpet/dark_green_carpet"
+  }
+}

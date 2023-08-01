@@ -1,9 +1,10 @@
 package org.totemcraft.pow.block;
 
 import com.google.gson.JsonElement;
+import it.unimi.dsi.fastutil.Pair;
+import lombok.Getter;
 import net.minecraft.client.renderer.block.model.BlockModel;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -26,11 +27,11 @@ import java.util.Map;
 public enum BlockLoader implements ContentLoader<Block> {
     INSTANCE;
 
-    public final DeferredRegister<Block> register = DeferredRegister.create(ForgeRegistries.BLOCKS, PicnicOfTheWorld.Id);
-    public final DeferredRegister<Item> itemRegister = DeferredRegister.create(ForgeRegistries.ITEMS, PicnicOfTheWorld.Id);
+    private final DeferredRegister<Block> register = DeferredRegister.create(ForgeRegistries.BLOCKS, PicnicOfTheWorld.Id);
+    private final DeferredRegister<Item> itemRegister = DeferredRegister.create(ForgeRegistries.ITEMS, PicnicOfTheWorld.Id);
 
-    private Map<String, BlockDefinition> loadedDefinitions = new HashMap<>();
-    private Map<String, RegistryObject<Block>> loadedBlocks = new HashMap<>();
+    @Getter
+    private Map<String, Pair<BlockDefinition, RegistryObject<Block>>> loaded = new HashMap<>();
     private Map<String, RegistryObject<Item>> loadedBlockItems = new HashMap<>();
 
     BlockLoader() {
@@ -52,17 +53,17 @@ public enum BlockLoader implements ContentLoader<Block> {
             itemRegister.register(definition.getId().getPath(), () -> new PBlockItem(block, new Item.Properties(), definition));
             return block;
         });
-        loadedBlocks.put(definition.getId().toString(), registryItem);
-        loadedDefinitions.put(definition.getId().toString(), definition);
+        loaded.put(definition.getId().toString(), Pair.of(definition, registryItem));
     }
 
     @Override
     public BlockModel getExtraBlockModel(ResourceLocation location) {
         if (location.getPath().startsWith("item/")) {
             var id = location.getPath().substring("item/".length());
-            var definition = loadedDefinitions.get(R.location(id).toString());
+            var pair = loaded.get(R.location(id).toString());
+            if (pair == null) return null;
+            var definition = pair.first();
 
-            if (definition == null) return null;
             try {
                 if (definition.getFeature().getLayer() != null) {
                     return BlockModelGenerator.layer(definition.getFeature().getLayer().toString());
@@ -83,8 +84,9 @@ public enum BlockLoader implements ContentLoader<Block> {
         var id = location.getPath().replaceFirst("^blockstates/", "").replaceFirst(".json$", "");
         if (id.isBlank()) return null;
 
-        var definition = loadedDefinitions.get(R.location(id).toString());
-        if (definition == null) return null;
+        var pair = loaded.get(R.location(id).toString());
+        if (pair == null) return null;
+        var definition = pair.first();
 
         if (definition.getFeature().getModel() != null) {
             if (definition.getFeature().getFacing()) {

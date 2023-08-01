@@ -1,0 +1,12 @@
+{
+  "id": "chartreuse_carpet",
+  "type": "carpet",
+  "displayName": {
+    "en_us": "Chartreuse Carpet",
+    "zh_cn": "黄绿色地毯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/carpet/chartreuse_carpet"
+  }
+}

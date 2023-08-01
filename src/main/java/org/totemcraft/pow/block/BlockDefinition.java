@@ -9,10 +9,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import org.totemcraft.pow.R;
-import org.totemcraft.pow.block.type.PBlock;
-import org.totemcraft.pow.block.type.PFlowerBlock;
-import org.totemcraft.pow.block.type.PTallGrassBlock;
-import org.totemcraft.pow.block.type.PTransparentBlock;
+import org.totemcraft.pow.block.type.*;
 import org.totemcraft.pow.group.ItemGroupLoader;
 import org.totemcraft.pow.localization.LocalizationStrings;
 
@@ -90,6 +87,8 @@ public class BlockDefinition {
             block = new PTallGrassBlock(properties, this);
         } else if (type.equalsIgnoreCase("transparent")) {
             block = new PTransparentBlock(properties, this);
+        }  else if (type.equalsIgnoreCase("carpet")) {
+            block = new PCarpetBlock(properties, this);
         } else {
             block = new PBlock(properties, this);
         }
