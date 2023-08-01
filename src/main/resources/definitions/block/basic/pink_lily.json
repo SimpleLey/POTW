@@ -1,11 +1,13 @@
 {
   "id": "pink_lily",
-  "type": "flower",
+  "type": "transparent",
   "displayName": {
     "en_us": "Pink Lily",
     "zh_cn": "粉色铃兰"
   },
+  "occlusion": false,
   "feature": {
-    "model": "block/flower/pink_lily"
+    "model": "block/basic/pink_lily",
+    "facing": true
   }
 }

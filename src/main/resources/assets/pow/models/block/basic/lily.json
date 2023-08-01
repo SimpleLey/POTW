@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "3": "pow:block/flower/lily",
-    "particle": "pow:block/flower/lily"
+    "3": "pow:block/basic/lily",
+    "particle": "pow:block/basic/lily"
   },
   "elements": [
     {
