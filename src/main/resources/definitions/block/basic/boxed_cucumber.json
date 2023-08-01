@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/boxed_cucumber"
-  }
+    "model": "block/basic/boxed_cucumber",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

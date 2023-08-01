@@ -87,6 +87,9 @@ public enum BlockLoader implements ContentLoader<Block> {
         if (definition == null) return null;
 
         if (definition.getFeature().getModel() != null) {
+            if (definition.getFeature().getFacing()) {
+                return BlockStateGenerator.ofFacing(definition.getFeature().getModel().toString());
+            }
             return BlockStateGenerator.of(definition.getFeature().getModel().toString());
         }
 

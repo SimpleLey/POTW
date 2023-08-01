@@ -8,6 +8,8 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/blueberry_jam",
-    "layer": "pow:item/food/blueberry_jam"
-  }
+    "layer": "pow:item/food/blueberry_jam",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/golden_lamp"
-  }
+    "model": "block/basic/golden_lamp",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

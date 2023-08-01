@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/picnic_basket"
-  }
+    "model": "block/basic/picnic_basket",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

@@ -8,6 +8,8 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/apple_sauce",
-    "layer": "pow:item/food/apple_juice"
-  }
+    "layer": "pow:item/food/apple_juice",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

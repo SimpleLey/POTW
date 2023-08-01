@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/floating_mushroom"
-  }
+    "model": "block/basic/floating_mushroom",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

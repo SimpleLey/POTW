@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/fruit_box"
-  }
+    "model": "block/basic/fruit_box",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

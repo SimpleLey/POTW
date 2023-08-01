@@ -7,4 +7,9 @@ import net.minecraft.resources.ResourceLocation;
 public class BlockFeature {
     private ResourceLocation model;
     private ResourceLocation layer;
+    private boolean facing;
+
+    public boolean getFacing() {
+        return facing;
+    }
 }

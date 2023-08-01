@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/park_bench_right"
-  }
+    "model": "block/basic/park_bench_right",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

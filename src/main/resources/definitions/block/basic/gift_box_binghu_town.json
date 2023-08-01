@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/gift_box_binghu_town"
-  }
+    "model": "block/basic/gift_box_binghu_town",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

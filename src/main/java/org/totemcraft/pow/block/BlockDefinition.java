@@ -1,6 +1,7 @@
 package org.totemcraft.pow.block;
 
 import lombok.Data;
+import lombok.Getter;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
@@ -50,7 +51,12 @@ public class BlockDefinition {
 
     private BlockFeature feature = new BlockFeature();
 
+    @Getter
+    private static BlockDefinition currentDefinition;
+
     public Block build() {
+        currentDefinition = this;
+
         var properties = BlockBehaviour.Properties.of();
         properties.sound(sound.getSoundType());
 

@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/street_lamp"
-  }
+    "model": "block/basic/street_lamp",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

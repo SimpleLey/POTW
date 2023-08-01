@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/crate"
-  }
+    "model": "block/basic/crate",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

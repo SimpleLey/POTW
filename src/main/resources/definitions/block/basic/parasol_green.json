@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/parasol_green"
-  }
+    "model": "block/basic/parasol_green",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

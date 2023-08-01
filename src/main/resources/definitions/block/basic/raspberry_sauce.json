@@ -8,6 +8,8 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/raspberry_sauce",
-    "layer": "pow:item/food/raspberry_sauce"
-  }
+    "layer": "pow:item/food/raspberry_sauce",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

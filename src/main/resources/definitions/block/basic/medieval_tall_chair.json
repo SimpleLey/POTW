@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/medieval_tall_chair"
-  }
+    "model": "block/basic/medieval_tall_chair",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

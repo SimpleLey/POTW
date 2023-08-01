@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/sunshade_umbrella_green"
-  }
+    "model": "block/basic/sunshade_umbrella_green",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

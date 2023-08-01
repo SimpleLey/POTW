@@ -13,6 +13,7 @@ public interface BlockModelGenerator {
                 }
                 """.formatted(layer0));
     }
+
     static BlockModel parent(String parent) {
         return BlockModel.fromString("""
                 {

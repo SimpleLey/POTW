@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/lamp"
-  }
+    "model": "block/basic/lamp",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

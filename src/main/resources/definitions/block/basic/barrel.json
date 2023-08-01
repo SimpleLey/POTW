@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/barrel"
-  }
+    "model": "block/basic/barrel",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

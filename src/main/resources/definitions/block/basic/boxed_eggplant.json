@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/boxed_eggplant"
-  }
+    "model": "block/basic/boxed_eggplant",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

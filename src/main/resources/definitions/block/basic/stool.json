@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/stool"
-  }
+    "model": "block/basic/stool",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

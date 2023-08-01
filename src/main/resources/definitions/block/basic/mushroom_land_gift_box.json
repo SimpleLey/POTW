@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/mushroom_land_gift_box"
-  }
+    "model": "block/basic/mushroom_land_gift_box",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

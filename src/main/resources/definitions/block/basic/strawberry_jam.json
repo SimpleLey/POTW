@@ -8,6 +8,8 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/strawberry_jam",
-    "layer": "pow:item/food/strawberry_jam"
-  }
+    "layer": "pow:item/food/strawberry_jam",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

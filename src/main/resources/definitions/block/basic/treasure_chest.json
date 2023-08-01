@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/treasure_chest"
-  }
+    "model": "block/basic/treasure_chest",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

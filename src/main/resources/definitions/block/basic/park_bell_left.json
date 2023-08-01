@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/park_bell_left"
-  }
+    "model": "block/basic/park_bell_left",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

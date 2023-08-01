@@ -12,4 +12,29 @@ public interface BlockStateGenerator {
                 }
                 """.formatted(model);
     }
+
+    static String ofFacing(String model) {
+        return """
+                {
+                   "variants": {
+                     "facing=east": {
+                       "model": "%s",
+                       "y": 180
+                     },
+                     "facing=north": {
+                       "model": "%s",
+                       "y": 90
+                     },
+                     "facing=south": {
+                       "model": "%s",
+                       "y": 270
+                     },
+                     "facing=west": {
+                       "model": "%s",
+                       "y": 0
+                     }
+                   }
+                 }
+                """.formatted(model, model, model, model);
+    }
 }

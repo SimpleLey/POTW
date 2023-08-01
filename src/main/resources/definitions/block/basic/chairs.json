@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/chairs"
-  }
+    "model": "block/basic/chairs",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

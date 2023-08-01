@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/boxed_tomato"
-  }
+    "model": "block/basic/boxed_tomato",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

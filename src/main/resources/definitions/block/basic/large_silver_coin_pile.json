@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/large_silver_coin_pile"
-  }
+    "model": "block/basic/large_silver_coin_pile",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

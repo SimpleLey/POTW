@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/wine_table"
-  }
+    "model": "block/basic/wine_table",
+    "facing": "true"
+  },
+  "type": "transparent"
 }

@@ -6,6 +6,8 @@
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/small_gold_coin"
-  }
+    "model": "block/basic/small_gold_coin",
+    "facing": "true"
+  },
+  "type": "transparent"
 }
