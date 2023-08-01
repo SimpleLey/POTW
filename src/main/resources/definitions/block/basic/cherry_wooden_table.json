@@ -1,0 +1,13 @@
+{
+  "id": "cherry_wooden_table",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Cherry Wooden Table",
+    "zh_cn": "樱桃木桌子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/cherry_wooden_table",
+    "facing": true
+  }
+}

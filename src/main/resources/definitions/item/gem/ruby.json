@@ -1,0 +1,10 @@
+{
+  "id": "ruby",
+  "displayName": {
+    "en_us": "Ruby",
+    "zh_cn": "红宝石"
+  },
+  "feature": {
+    "layer": "pow:item/gem/ruby"
+  }
+}

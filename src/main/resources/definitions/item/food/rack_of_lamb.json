@@ -1,0 +1,14 @@
+{
+  "id": "rack_of_lamb",
+  "displayName": {
+    "en_us": "Rack Of Lamb",
+    "zh_cn": "烤羊排"
+  },
+  "feature": {
+    "layer": "pow:item/food/rack_of_lamb"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

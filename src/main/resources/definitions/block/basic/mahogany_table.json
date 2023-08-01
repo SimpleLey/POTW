@@ -1,0 +1,13 @@
+{
+  "id": "mahogany_table",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Mahogany Table",
+    "zh_cn": "红木桌子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/mahogany_table",
+    "facing": true
+  }
+}

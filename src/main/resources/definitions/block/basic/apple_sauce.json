@@ -1,0 +1,13 @@
+{
+  "id": "apple_sauce",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Apple Sauce",
+    "zh_cn": "苹果酱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/apple_sauce",
+    "facing": true
+  }
+}

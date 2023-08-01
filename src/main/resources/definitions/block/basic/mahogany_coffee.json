@@ -1,0 +1,13 @@
+{
+  "id": "mahogany_coffee",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Mahogany Coffee",
+    "zh_cn": "红木茶几"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/mahogany_coffee",
+    "facing": true
+  }
+}

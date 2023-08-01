@@ -1,0 +1,10 @@
+{
+  "id": "resource_crystallization",
+  "displayName": {
+    "en_us": "Resource Crystallization",
+    "zh_cn": "资源结晶"
+  },
+  "feature": {
+    "layer": "pow:item/other/resource_crystallization"
+  }
+}

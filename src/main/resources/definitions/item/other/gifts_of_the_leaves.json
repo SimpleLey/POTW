@@ -1,0 +1,10 @@
+{
+  "id": "gifts_of_the_leaves",
+  "displayName": {
+    "en_us": "Gifts Of The Leaves",
+    "zh_cn": "叶子的礼物"
+  },
+  "feature": {
+    "layer": "pow:item/other/gifts_of_the_leaves"
+  }
+}

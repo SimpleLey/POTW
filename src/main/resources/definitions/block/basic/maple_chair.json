@@ -1,0 +1,13 @@
+{
+  "id": "maple_chair",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Maple Chair",
+    "zh_cn": "枫树椅子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/maple_chair",
+    "facing": true
+  }
+}

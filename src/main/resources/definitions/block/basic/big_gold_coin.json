@@ -1,0 +1,13 @@
+{
+  "id": "big_gold_coin",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Big Gold Coin",
+    "zh_cn": "大金币堆"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/big_gold_coin",
+    "facing": true
+  }
+}

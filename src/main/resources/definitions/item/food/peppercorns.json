@@ -1,0 +1,14 @@
+{
+  "id": "peppercorns",
+  "displayName": {
+    "en_us": "Peppercorns",
+    "zh_cn": "花椒果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/peppercorns"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

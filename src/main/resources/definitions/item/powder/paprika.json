@@ -1,0 +1,10 @@
+{
+  "id": "paprika",
+  "displayName": {
+    "en_us": "paprika",
+    "zh_cn": "辣椒粉"
+  },
+  "feature": {
+    "layer": "pow:item/powder/paprika"
+  }
+}

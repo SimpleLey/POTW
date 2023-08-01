@@ -1,0 +1,14 @@
+{
+  "id": "dough",
+  "displayName": {
+    "en_us": "Dough",
+    "zh_cn": "面团"
+  },
+  "feature": {
+    "layer": "pow:item/food/dough"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

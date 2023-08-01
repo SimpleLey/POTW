@@ -1,0 +1,13 @@
+{
+  "id": "blueberry_jam",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Blueberry Jam",
+    "zh_cn": "蓝莓酱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/blueberry_jam",
+    "facing": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pink_orb",
+  "displayName": {
+    "en_us": "Pink Orb",
+    "zh_cn": "粉红色宝石"
+  },
+  "feature": {
+    "layer": "pow:item/orb/pink"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wisteria",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "Wisteria",
+    "zh_cn": "紫藤"
+  },
+  "feature": {
+    "model": "block/tall_grass/wisteria"
+  }
+}

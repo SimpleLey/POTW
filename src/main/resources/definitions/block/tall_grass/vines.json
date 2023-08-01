@@ -1,0 +1,11 @@
+{
+  "id": "vines",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "Vines",
+    "zh_cn": "青藤"
+  },
+  "feature": {
+    "model": "block/tall_grass/vines"
+  }
+}

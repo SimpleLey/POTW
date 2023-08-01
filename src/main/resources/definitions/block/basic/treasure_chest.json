@@ -1,0 +1,13 @@
+{
+  "id": "treasure_chest",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Treasure Chest",
+    "zh_cn": "宝箱"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/treasure_chest",
+    "facing": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dark_soul",
+  "displayName": {
+    "en_us": "Dark Soul",
+    "zh_cn": "暗黑灵魂"
+  },
+  "feature": {
+    "layer": "pow:item/other/dark_soul"
+  }
+}

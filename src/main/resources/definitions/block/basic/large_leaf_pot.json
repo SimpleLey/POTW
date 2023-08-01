@@ -1,0 +1,13 @@
+{
+  "id": "large_leaf_pot",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Large Leaf Pot",
+    "zh_cn": "大叶盆栽"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/large_leaf_pot",
+    "facing": true
+  }
+}

@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All rights reserved"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="PutEgg"
+description='''
+Picnic Of The World  世野之炊
+'''

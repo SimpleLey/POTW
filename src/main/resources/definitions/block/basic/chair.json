@@ -1,0 +1,13 @@
+{
+  "id": "chair",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Chair",
+    "zh_cn": "椅子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/chair",
+    "facing": true
+  }
+}

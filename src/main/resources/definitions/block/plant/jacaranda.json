@@ -1,0 +1,11 @@
+{
+  "id": "jacaranda",
+  "type": "flower",
+  "displayName": {
+    "en_us": "Jacaranda",
+    "zh_cn": "兰楹花"
+  },
+  "feature": {
+    "model": "block/plant/jacaranda"
+  }
+}

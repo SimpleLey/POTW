@@ -1,0 +1,13 @@
+{
+  "id": "chairs",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Chairs",
+    "zh_cn": "老板椅"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/chairs",
+    "facing": true
+  }
+}

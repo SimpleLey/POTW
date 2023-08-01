@@ -1,0 +1,13 @@
+{
+  "id": "beer_bottle_1",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Beer Bottle 1",
+    "zh_cn": "啤酒瓶1"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/beer_bottle_1",
+    "facing": true
+  }
+}

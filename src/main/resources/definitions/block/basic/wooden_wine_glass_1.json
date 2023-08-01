@@ -1,0 +1,13 @@
+{
+  "id": "wooden_wine_glass_1",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Wooden Wine Glass 1",
+    "zh_cn": "木质酒杯1"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/wooden_wine_glass_1",
+    "facing": true
+  }
+}

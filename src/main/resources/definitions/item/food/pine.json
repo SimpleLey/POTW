@@ -1,0 +1,14 @@
+{
+  "id": "pine",
+  "displayName": {
+    "en_us": "Pine",
+    "zh_cn": "松茸"
+  },
+  "feature": {
+    "layer": "pow:item/food/pine"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

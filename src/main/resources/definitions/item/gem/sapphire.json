@@ -1,0 +1,10 @@
+{
+  "id": "sapphire",
+  "displayName": {
+    "en_us": "Sapphire",
+    "zh_cn": "蓝宝石"
+  },
+  "feature": {
+    "layer": "pow:item/gem/sapphire"
+  }
+}

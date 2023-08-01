@@ -1,0 +1,10 @@
+{
+  "id": "orange_orb",
+  "displayName": {
+    "en_us": "Orange Orb",
+    "zh_cn": "橙色宝石"
+  },
+  "feature": {
+    "layer": "pow:item/orb/orange"
+  }
+}

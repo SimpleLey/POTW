@@ -1,0 +1,14 @@
+{
+  "id": "long_niggut",
+  "displayName": {
+    "en_us": "Long Niggut",
+    "zh_cn": "长直茄"
+  },
+  "feature": {
+    "layer": "pow:item/food/long_niggut"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

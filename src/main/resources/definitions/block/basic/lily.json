@@ -1,0 +1,13 @@
+{
+  "id": "lily",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Lily",
+    "zh_cn": "黄色铃兰"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/lily",
+    "facing": true
+  }
+}

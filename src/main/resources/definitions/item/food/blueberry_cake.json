@@ -1,0 +1,14 @@
+{
+  "id": "blueberry_cake",
+  "displayName": {
+    "en_us": "Blueberry Cake",
+    "zh_cn": "蓝莓蛋糕"
+  },
+  "feature": {
+    "layer": "pow:item/food/blueberry_cake"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

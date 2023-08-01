@@ -1,0 +1,16 @@
+{
+  "id": "purple_gem",
+  "displayName": {
+    "en_us": "Purple Gem",
+    "zh_cn": "紫宝石"
+  },
+  "lores": {
+    "zh_cn": [
+      "这是一个平平无奇的紫宝石",
+      "但是它的价值却是无法估量的"
+    ]
+  },
+  "feature": {
+    "layer": "pow:item/gem/purple_gem"
+  }
+}

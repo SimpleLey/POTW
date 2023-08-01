@@ -1,0 +1,10 @@
+{
+  "id": "emerald_gem",
+  "displayName": {
+    "en_us": "Emerald Gem",
+    "zh_cn": "祖母绿"
+  },
+  "feature": {
+    "layer": "pow:item/gem/emerald_gem"
+  }
+}

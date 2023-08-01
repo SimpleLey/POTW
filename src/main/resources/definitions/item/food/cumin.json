@@ -1,0 +1,14 @@
+{
+  "id": "cumin",
+  "displayName": {
+    "en_us": "Cumin",
+    "zh_cn": "孜然果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/cumin"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

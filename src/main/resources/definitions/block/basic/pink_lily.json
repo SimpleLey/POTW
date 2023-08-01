@@ -1,0 +1,13 @@
+{
+  "id": "pink_lily",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Pink Lily",
+    "zh_cn": "粉色铃兰"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/pink_lily",
+    "facing": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "grilled_chicken_leg",
+  "displayName": {
+    "en_us": "Grilled Chicken Leg",
+    "zh_cn": "烤鸡腿"
+  },
+  "feature": {
+    "layer": "pow:item/food/grilled_chicken_leg"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

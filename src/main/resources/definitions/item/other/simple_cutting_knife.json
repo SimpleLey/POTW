@@ -1,0 +1,10 @@
+{
+  "id": "simple_cutting_knife",
+  "displayName": {
+    "en_us": "Simple Cutting Knife",
+    "zh_cn": "简易切割刀"
+  },
+  "feature": {
+    "layer": "pow:item/other/simple_cutting_knife"
+  }
+}

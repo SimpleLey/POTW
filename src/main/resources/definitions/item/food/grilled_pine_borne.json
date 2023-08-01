@@ -1,0 +1,14 @@
+{
+  "id": "grilled_pine_borne",
+  "displayName": {
+    "en_us": "Grilled Pine Borne",
+    "zh_cn": "烤松茸"
+  },
+  "feature": {
+    "layer": "pow:item/food/grilled_pine_borne"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

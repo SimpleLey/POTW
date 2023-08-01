@@ -1,0 +1,13 @@
+{
+  "id": "picnic_basket",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Picnic Basket",
+    "zh_cn": "野餐篮子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/picnic_basket",
+    "facing": true
+  }
+}

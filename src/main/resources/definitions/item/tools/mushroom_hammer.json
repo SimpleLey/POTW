@@ -1,0 +1,10 @@
+{
+	"id": "mushroom_hammer",
+	"type": "sword",
+	"group": "tools",
+	"displayName": {
+		"en_us": "Mushroom Hammer",
+		"zh_cn": "蘑菇锤"
+	},
+	"tier": "diamond"
+}

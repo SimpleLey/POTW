@@ -1,0 +1,10 @@
+{
+  "id": "colorful_soul",
+  "displayName": {
+    "en_us": "Colorful Soul",
+    "zh_cn": "七彩灵魂"
+  },
+  "feature": {
+    "layer": "pow:item/other/colorful_soul"
+  }
+}

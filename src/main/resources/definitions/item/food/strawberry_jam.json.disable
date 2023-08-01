@@ -1,0 +1,14 @@
+{
+  "id": "strawberry_jam",
+  "displayName": {
+    "en_us": "Strawberry Jam",
+    "zh_cn": "草莓酱"
+  },
+  "feature": {
+    "layer": "pow:item/food/strawberry_jam"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

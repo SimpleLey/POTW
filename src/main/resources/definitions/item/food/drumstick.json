@@ -1,0 +1,14 @@
+{
+  "id": "drumstick",
+  "displayName": {
+    "en_us": "Drumstick",
+    "zh_cn": "鸡腿"
+  },
+  "feature": {
+    "layer": "pow:item/food/drumstick"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

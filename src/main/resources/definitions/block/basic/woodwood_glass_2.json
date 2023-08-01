@@ -1,0 +1,13 @@
+{
+  "id": "woodwood_glass_2",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Woodwood Glass 2",
+    "zh_cn": "木质酒杯2"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/woodwood_glass_2",
+    "facing": true
+  }
+}

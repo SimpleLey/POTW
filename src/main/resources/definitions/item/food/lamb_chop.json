@@ -1,0 +1,14 @@
+{
+  "id": "lamb_chop",
+  "displayName": {
+    "en_us": "Lamb Chop",
+    "zh_cn": "羊排"
+  },
+  "feature": {
+    "layer": "pow:item/food/lamb_chop"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "colorful_lamp",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Colorful Lamp",
+    "zh_cn": "彩灯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/colorful_lamp",
+    "facing": true
+  }
+}

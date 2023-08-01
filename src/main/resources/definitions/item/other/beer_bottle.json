@@ -1,0 +1,10 @@
+{
+  "id": "beer_bottle",
+  "displayName": {
+    "en_us": "Beer Bottle",
+    "zh_cn": "啤酒瓶"
+  },
+  "feature": {
+    "layer": "pow:item/other/beer_bottle"
+  }
+}

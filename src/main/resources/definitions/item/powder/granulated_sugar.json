@@ -1,0 +1,10 @@
+{
+  "id": "granulated_sugar",
+  "displayName": {
+    "en_us": "Granulated Sugar",
+    "zh_cn": "砂糖"
+  },
+  "feature": {
+    "layer": "pow:item/powder/granulated_sugar"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cherry_wood_chair",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Cherry Wood Chair",
+    "zh_cn": "樱桃木椅子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/cherry_wood_chair",
+    "facing": true
+  }
+}

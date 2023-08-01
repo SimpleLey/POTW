@@ -1,0 +1,11 @@
+{
+  "id": "linen",
+  "type": "flower",
+  "displayName": {
+    "en_us": "Linen",
+    "zh_cn": "亚麻植株"
+  },
+  "feature": {
+    "model": "block/flower/linen"
+  }
+}

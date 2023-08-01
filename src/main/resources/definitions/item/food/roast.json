@@ -1,0 +1,14 @@
+{
+  "id": "roast",
+  "displayName": {
+    "en_us": "Roast",
+    "zh_cn": "烤马勃"
+  },
+  "feature": {
+    "layer": "pow:item/food/roast"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

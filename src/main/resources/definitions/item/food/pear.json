@@ -1,0 +1,14 @@
+{
+  "id": "pear",
+  "displayName": {
+    "en_us": "Pear",
+    "zh_cn": "梨子"
+  },
+  "feature": {
+    "layer": "pow:item/food/pear"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

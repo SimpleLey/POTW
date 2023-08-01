@@ -1,0 +1,13 @@
+{
+  "id": "lamp",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Lamp",
+    "zh_cn": "提灯"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/lamp",
+    "facing": true
+  }
+}

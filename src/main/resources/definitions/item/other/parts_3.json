@@ -1,0 +1,10 @@
+{
+  "id": "parts_3",
+  "displayName": {
+    "en_us": "Parts 3",
+    "zh_cn": "零件3"
+  },
+  "feature": {
+    "layer": "pow:item/other/parts_3"
+  }
+}

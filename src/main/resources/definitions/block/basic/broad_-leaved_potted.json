@@ -1,0 +1,13 @@
+{
+  "id": "broad_-leaved_potted",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Broad -leaved Potted",
+    "zh_cn": "阔叶盆栽"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/broad_-leaved_potted",
+    "facing": true
+  }
+}

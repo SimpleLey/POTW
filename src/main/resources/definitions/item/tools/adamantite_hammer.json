@@ -1,0 +1,10 @@
+{
+	"id": "adamantite_hammer",
+	"type": "sword",
+	"group": "tools",
+	"displayName": {
+		"en_us": "Adamantite Hammer",
+		"zh_cn": "精金锤"
+	},
+	"tier": "diamond"
+}

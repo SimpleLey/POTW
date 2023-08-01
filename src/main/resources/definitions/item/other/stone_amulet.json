@@ -1,0 +1,10 @@
+{
+  "id": "stone_amulet",
+  "displayName": {
+    "en_us": "Stone Amulet",
+    "zh_cn": "石质护符"
+  },
+  "feature": {
+    "layer": "pow:item/other/stone_amulet"
+  }
+}

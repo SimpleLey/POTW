@@ -1,0 +1,14 @@
+{
+  "id": "fertilizer",
+  "displayName": {
+    "en_us": "Fertilizer",
+    "zh_cn": "肥茄"
+  },
+  "feature": {
+    "layer": "pow:item/food/fertilizer"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

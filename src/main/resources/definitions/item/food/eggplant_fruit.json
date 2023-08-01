@@ -1,0 +1,14 @@
+{
+  "id": "eggplant_fruit",
+  "displayName": {
+    "en_us": "Eggplant Fruit",
+    "zh_cn": "茄子果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/eggplant_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

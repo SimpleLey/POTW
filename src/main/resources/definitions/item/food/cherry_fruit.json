@@ -1,0 +1,14 @@
+{
+  "id": "cherry_fruit",
+  "displayName": {
+    "en_us": "Cherry Fruit",
+    "zh_cn": "樱桃果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/cherry_fruit"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

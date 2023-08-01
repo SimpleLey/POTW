@@ -1,0 +1,14 @@
+{
+  "id": "raspberry_juice",
+  "displayName": {
+    "en_us": "Raspberry Juice",
+    "zh_cn": "树莓汁"
+  },
+  "feature": {
+    "layer": "pow:item/food/raspberry_juice"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

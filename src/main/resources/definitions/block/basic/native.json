@@ -1,0 +1,13 @@
+{
+  "id": "native",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Native",
+    "zh_cn": "普通铃兰"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/native",
+    "facing": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cabbage",
+  "displayName": {
+    "en_us": "Cabbage",
+    "zh_cn": "白菜果实"
+  },
+  "feature": {
+    "layer": "pow:item/food/cabbage"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

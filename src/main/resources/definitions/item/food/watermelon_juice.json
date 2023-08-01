@@ -1,0 +1,14 @@
+{
+  "id": "watermelon_juice",
+  "displayName": {
+    "en_us": "Watermelon Juice",
+    "zh_cn": "西瓜汁"
+  },
+  "feature": {
+    "layer": "pow:item/food/watermelon_juice"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "small_silver_coin_pile",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Small Silver Coin Pile",
+    "zh_cn": "小银币堆"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/small_silver_coin_pile",
+    "facing": true
+  }
+}

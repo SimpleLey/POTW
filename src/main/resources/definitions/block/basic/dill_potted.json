@@ -1,0 +1,13 @@
+{
+  "id": "dill_potted",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Dill Potted",
+    "zh_cn": "莳萝盆栽"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/dill_potted",
+    "facing": true
+  }
+}

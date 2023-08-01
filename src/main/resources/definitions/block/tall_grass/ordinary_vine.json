@@ -1,0 +1,11 @@
+{
+  "id": "ordinary_vine",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "Ordinary Vine",
+    "zh_cn": "普通藤蔓"
+  },
+  "feature": {
+    "model": "block/tall_grass/ordinary_vine"
+  }
+}
