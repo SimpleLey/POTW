@@ -1,11 +1,13 @@
 {
   "id": "apple_sauce",
+  "group": "items",
   "displayName": {
     "en_us": "Apple Sauce",
     "zh_cn": "苹果酱"
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/apple_sauce"
+    "model": "block/basic/apple_sauce",
+    "layer": "pow:item/food/apple_juice"
   }
 }

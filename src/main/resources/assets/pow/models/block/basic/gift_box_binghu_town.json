@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "2": "pow:block/basic/gift_box_binghu_town"
+    "2": "pow:block/basic/gift_box_binghu_town",
+    "particle": "pow:block/basic/gift_box_binghu_town"
   },
   "elements": [
     {

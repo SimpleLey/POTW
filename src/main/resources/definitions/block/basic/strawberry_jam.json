@@ -1,11 +1,13 @@
 {
   "id": "strawberry_jam",
+  "group": "items",
   "displayName": {
     "en_us": "Strawberry Jam",
     "zh_cn": "草莓酱"
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/strawberry_jam"
+    "model": "block/basic/strawberry_jam",
+    "layer": "pow:item/food/strawberry_jam"
   }
 }

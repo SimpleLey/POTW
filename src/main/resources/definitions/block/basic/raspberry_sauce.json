@@ -1,11 +1,13 @@
 {
   "id": "raspberry_sauce",
+  "group": "items",
   "displayName": {
     "en_us": "Raspberry Sauce",
     "zh_cn": "树莓酱"
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/raspberry_sauce"
+    "model": "block/basic/raspberry_sauce",
+    "layer": "pow:item/food/raspberry_sauce"
   }
 }

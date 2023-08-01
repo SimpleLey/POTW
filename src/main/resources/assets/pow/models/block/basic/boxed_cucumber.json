@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "2": "pow:block/basic/boxed_cucumber"
+    "2": "pow:block/basic/boxed_cucumber",
+    "particle": "pow:block/basic/boxed_cucumber"
   },
   "elements": [
     {

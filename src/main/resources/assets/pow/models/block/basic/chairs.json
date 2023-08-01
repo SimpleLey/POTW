@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "3": "pow:block/basic/chairs"
+    "3": "pow:block/basic/chairs",
+    "particle": "pow:block/basic/chairs"
   },
   "elements": [
     {

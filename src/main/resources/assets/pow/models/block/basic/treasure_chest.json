@@ -5,7 +5,7 @@
     128
   ],
   "textures": {
-    "2": "block/stiched_texture"
+    "2": "pow:block/basic/treasure_chest"
   },
   "elements": [
     {

@@ -1,6 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
+	"textures": {
+		"1": "pow:item/tool/adamantite_bow"
+	},
 	"elements": [
 		{
 			"from": [7, 2, 2],

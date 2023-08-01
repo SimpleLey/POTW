@@ -1,5 +1,6 @@
 {
   "id": "fishing_barrel",
+  "type": "transparent",
   "displayName": {
     "en_us": "Fishing Barrel",
     "zh_cn": "钓鱼桶"

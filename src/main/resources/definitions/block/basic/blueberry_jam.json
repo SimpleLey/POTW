@@ -1,11 +1,13 @@
 {
   "id": "blueberry_jam",
+  "group": "items",
   "displayName": {
     "en_us": "Blueberry Jam",
     "zh_cn": "蓝莓酱"
   },
   "occlusion": false,
   "feature": {
-    "model": "block/basic/blueberry_jam"
+    "model": "block/basic/blueberry_jam",
+    "layer": "pow:item/food/blueberry_jam"
   }
 }

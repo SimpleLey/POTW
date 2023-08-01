@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "1": "pow:block/basic/fruit_box"
+    "1": "pow:block/basic/fruit_box",
+    "particle": "pow:block/basic/fruit_box"
   },
   "elements": [
     {

@@ -5,7 +5,8 @@
     64
   ],
   "textures": {
-    "1": "pow:block/basic/medieval_tall_chair"
+    "1": "pow:block/basic/medieval_tall_chair",
+    "particle": "pow:block/basic/medieval_tall_chair"
   },
   "elements": [
     {
