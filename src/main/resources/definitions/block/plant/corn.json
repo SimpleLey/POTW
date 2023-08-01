@@ -1,0 +1,13 @@
+{
+  "id": "corn",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Corn",
+    "zh_cn": "玉米"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/corn",
+    "facing": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cream",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Cream",
+    "zh_cn": "鹅膏菌"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/cream",
+    "facing": true
+  }
+}

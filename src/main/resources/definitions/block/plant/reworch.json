@@ -1,0 +1,14 @@
+{
+  "id": "reworch",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Reworch",
+    "zh_cn": "松露"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/reworch",
+    "facing": true,
+    "layer": "pow:item/food/reworch"
+  }
+}

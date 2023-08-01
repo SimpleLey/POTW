@@ -1,0 +1,14 @@
+{
+  "id": "pine",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Pine",
+    "zh_cn": "松茸"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/pine",
+    "facing": true,
+    "layer": "pow:item/food/pine"
+  }
+}

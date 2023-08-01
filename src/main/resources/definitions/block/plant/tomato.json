@@ -1,0 +1,14 @@
+{
+  "id": "tomato",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Tomato",
+    "zh_cn": "番茄"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/tomato",
+    "facing": true,
+    "layer": "pow:item/food/tomato"
+  }
+}

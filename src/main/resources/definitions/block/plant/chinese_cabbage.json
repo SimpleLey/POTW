@@ -1,0 +1,13 @@
+{
+  "id": "chinese_cabbage",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Chinese Cabbage",
+    "zh_cn": "白菜"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/chinese_cabbage",
+    "facing": true
+  }
+}

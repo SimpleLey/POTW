@@ -1,0 +1,14 @@
+{
+  "id": "blueberry",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Blueberry",
+    "zh_cn": "蓝莓"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/blueberry",
+    "facing": true,
+    "layer": "pow:item/food/blueberry"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cucumber",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Cucumber",
+    "zh_cn": "黄瓜"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/cucumber",
+    "facing": true
+  }
+}

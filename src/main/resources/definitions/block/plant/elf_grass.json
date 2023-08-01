@@ -1,0 +1,13 @@
+{
+  "id": "elf_grass",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Elf Grass",
+    "zh_cn": "精灵草"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/elf_grass",
+    "facing": true
+  }
+}

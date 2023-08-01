@@ -1,0 +1,13 @@
+{
+  "id": "frozen_berry",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Frozen Berry",
+    "zh_cn": "冰冻浆果"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/frozen_berry",
+    "facing": true
+  }
+}

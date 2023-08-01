@@ -1,0 +1,14 @@
+{
+  "id": "to_the_fantasy_mushroom",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "To The Fantasy Mushroom",
+    "zh_cn": "致幻蘑菇"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/to_the_fantasy_mushroom",
+    "facing": true,
+    "layer": "pow:item/food/to_the_fantasy_mushroom"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "massachuset",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Massachuset",
+    "zh_cn": "马勃"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/massachuset",
+    "facing": true
+  }
+}

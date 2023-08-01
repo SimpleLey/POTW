@@ -1,0 +1,13 @@
+{
+  "id": "eggplant",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Eggplant",
+    "zh_cn": "茄子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/eggplant",
+    "facing": true
+  }
+}

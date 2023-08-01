@@ -1,0 +1,13 @@
+{
+  "id": "raspberry",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Raspberry",
+    "zh_cn": "树莓"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/raspberry",
+    "facing": true
+  }
+}

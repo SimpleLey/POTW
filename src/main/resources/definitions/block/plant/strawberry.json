@@ -1,0 +1,14 @@
+{
+  "id": "strawberry",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Strawberry",
+    "zh_cn": "草莓"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/plant/strawberry",
+    "facing": true,
+    "layer": "pow:item/food/strawberry"
+  }
+}
