@@ -1,0 +1,13 @@
+{
+  "id": "synthetic_table",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Synthetic Table",
+    "zh_cn": "合成台"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/synthetic_table",
+    "facing": true
+  }
+}

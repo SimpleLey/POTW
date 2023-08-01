@@ -1,5 +1,6 @@
 {
   "id": "boxed_cucumber",
+  "type": "transparent",
   "displayName": {
     "en_us": "Boxed Cucumber",
     "zh_cn": "箱装黄瓜"
@@ -7,7 +8,6 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/boxed_cucumber",
-    "facing": "true"
-  },
-  "type": "transparent"
+    "facing": true
+  }
 }

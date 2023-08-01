@@ -1,0 +1,13 @@
+{
+  "id": "maple_coffee_table",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Maple Coffee Table",
+    "zh_cn": "枫树茶几"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/maple_coffee_table",
+    "facing": true
+  }
+}

@@ -404,6 +404,7 @@
       ]
     }
   ],
+  "render_type": "translucent",
   "display": {
     "gui": {
       "rotation": [

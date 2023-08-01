@@ -1,0 +1,13 @@
+{
+  "id": "maple_table",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Maple Table",
+    "zh_cn": "枫树桌子"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/maple_table",
+    "facing": true
+  }
+}

@@ -733,5 +733,6 @@
         0.5
       ]
     }
-  }
+  },
+  "render_type": "translucent"
 }

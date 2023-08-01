@@ -1,14 +1,13 @@
 {
   "credit": "Made with Blockbench",
-  "render_type": "translucent",
   "texture_size": [
     64,
     64
   ],
   "textures": {
-    "1": "block/water_still",
+    "1": "pow:block/basic/fishing_barrel",
     "3": "pow:block/basic/fishing_barrel",
-    "particle": "block/water_still"
+    "particle": "pow:block/basic/fishing_barrel"
   },
   "elements": [
     {
@@ -2541,6 +2540,7 @@
       ]
     }
   ],
+  "render_type": "translucent",
   "display": {
     "gui": {
       "rotation": [

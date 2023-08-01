@@ -5,7 +5,8 @@
     128
   ],
   "textures": {
-    "2": "pow:block/basic/treasure_chest"
+    "2": "pow:block/basic/treasure_chest",
+    "particle": "pow:block/basic/treasure_chest"
   },
   "elements": [
     {
@@ -2473,7 +2474,20 @@
       }
     }
   ],
-  "display": {},
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    }
+  },
   "groups": [
     {
       "name": "bone2",
@@ -2531,5 +2545,6 @@
         31
       ]
     }
-  ]
+  ],
+  "render_type": "translucent"
 }

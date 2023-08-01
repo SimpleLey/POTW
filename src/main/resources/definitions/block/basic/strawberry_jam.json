@@ -1,6 +1,6 @@
 {
   "id": "strawberry_jam",
-  "group": "items",
+  "type": "transparent",
   "displayName": {
     "en_us": "Strawberry Jam",
     "zh_cn": "草莓酱"
@@ -8,8 +8,6 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/strawberry_jam",
-    "layer": "pow:item/food/strawberry_jam",
-    "facing": "true"
-  },
-  "type": "transparent"
+    "facing": true
+  }
 }

@@ -5,6 +5,7 @@ import lombok.Getter;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
@@ -21,7 +22,7 @@ public class BlockDefinition {
     private ResourceLocation group = R.location("blocks");
     private LocalizationStrings lores;
 
-    private BlockSound sound = BlockSound.STONE;
+    private BlockSound sound;
     private DyeColor dyeColor;
     private MapColor mapColor;
     private BlockBehaviour.OffsetType offsetType;
@@ -55,7 +56,20 @@ public class BlockDefinition {
         currentDefinition = this;
 
         var properties = BlockBehaviour.Properties.of();
-        properties.sound(sound.getSoundType());
+
+        if (type.equalsIgnoreCase("flower")) {
+            properties.mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY);
+        } else if (type.equalsIgnoreCase("vine")) {
+            properties.mapColor(MapColor.PLANT).replaceable().noCollission().randomTicks().strength(0.2F).sound(SoundType.VINE).ignitedByLava().pushReaction(PushReaction.DESTROY);
+        } else if (type.equalsIgnoreCase("grass")) {
+            properties.mapColor(MapColor.GRASS).randomTicks().strength(0.6F).sound(SoundType.GRASS);
+        } else if (type.equalsIgnoreCase("tall_flower")) {
+            properties.mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).ignitedByLava().pushReaction(PushReaction.DESTROY);
+        } else if (type.equalsIgnoreCase("tall_grass")) {
+            properties.mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).ignitedByLava().pushReaction(PushReaction.DESTROY);
+        }
+
+        if (sound != null) properties.sound(sound.getSoundType());
 
         if (mapColor != null) properties.mapColor(mapColor);
         if (dyeColor != null) properties.mapColor(dyeColor);
@@ -83,11 +97,17 @@ public class BlockDefinition {
         Block block;
         if (type.equalsIgnoreCase("flower")) {
             block = new PFlowerBlock(properties, this);
+        } else if (type.equalsIgnoreCase("grass")) {
+            block = new PGrassBlock(properties, this);
+        } else if (type.equalsIgnoreCase("tall_flower")) {
+            block = new PTallFlowerBlock(properties, this);
         } else if (type.equalsIgnoreCase("tall_grass")) {
             block = new PTallGrassBlock(properties, this);
         } else if (type.equalsIgnoreCase("transparent")) {
             block = new PTransparentBlock(properties, this);
         }  else if (type.equalsIgnoreCase("carpet")) {
+            block = new PCarpetBlock(properties, this);
+        }  else if (type.equalsIgnoreCase("vine")) {
             block = new PCarpetBlock(properties, this);
         } else {
             block = new PBlock(properties, this);

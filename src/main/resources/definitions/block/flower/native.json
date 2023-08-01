@@ -1,0 +1,11 @@
+{
+  "id": "native",
+  "type": "flower",
+  "displayName": {
+    "en_us": "Native",
+    "zh_cn": "普通铃兰"
+  },
+  "feature": {
+    "model": "block/flower/native"
+  }
+}

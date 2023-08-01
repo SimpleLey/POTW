@@ -1,6 +1,5 @@
 {
   "credit": "Made with Blockbench",
-  "render_type": "translucent",
   "texture_size": [
     64,
     64
@@ -334,6 +333,7 @@
       }
     }
   ],
+  "render_type": "translucent",
   "display": {
     "gui": {
       "rotation": [

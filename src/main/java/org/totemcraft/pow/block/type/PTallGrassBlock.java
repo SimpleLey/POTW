@@ -5,13 +5,14 @@ import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.TallGrassBlock;
+import net.minecraft.world.level.block.DoublePlantBlock;
+import net.minecraft.world.level.block.TallFlowerBlock;
 import org.jetbrains.annotations.Nullable;
 import org.totemcraft.pow.block.BlockDefinition;
 
 import java.util.List;
 
-public class PTallGrassBlock extends TallGrassBlock {
+public class PTallGrassBlock extends DoublePlantBlock {
     private BlockDefinition definition;
 
     public PTallGrassBlock(Properties properties, BlockDefinition definition) {

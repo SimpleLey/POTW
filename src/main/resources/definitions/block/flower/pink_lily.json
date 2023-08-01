@@ -1,0 +1,11 @@
+{
+  "id": "pink_lily",
+  "type": "flower",
+  "displayName": {
+    "en_us": "Pink Lily",
+    "zh_cn": "粉色铃兰"
+  },
+  "feature": {
+    "model": "block/flower/pink_lily"
+  }
+}

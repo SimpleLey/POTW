@@ -1,0 +1,11 @@
+{
+  "id": "red_vine",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "Red Vine",
+    "zh_cn": "红藤"
+  },
+  "feature": {
+    "model": "block/tall_grass/red_vine"
+  }
+}

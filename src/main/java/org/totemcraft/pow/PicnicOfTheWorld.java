@@ -15,6 +15,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.totemcraft.pow.block.BlockDefinition;
 import org.totemcraft.pow.block.BlockLoader;
+import org.totemcraft.pow.entity.EntityInit;
 import org.totemcraft.pow.group.ItemGroupLoader;
 import org.totemcraft.pow.item.ItemLoader;
 import org.totemcraft.pow.loader.ContentLoader;
@@ -36,6 +37,7 @@ public class PicnicOfTheWorld {
 //        eventBus.addListener(this::clientSetup);
 
         ContentLoader.loadAllContent();
+//        EntityInit.init();
     }
 
 //    public void clientSetup(FMLClientSetupEvent event) {

@@ -8,6 +8,6 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/fishing_barrel",
-    "facing": "true"
+    "facing": true
   }
 }

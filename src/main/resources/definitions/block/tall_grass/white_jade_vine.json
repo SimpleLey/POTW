@@ -1,0 +1,11 @@
+{
+  "id": "white_jade_vine",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "White Jade Vine",
+    "zh_cn": "白玉藤蔓"
+  },
+  "feature": {
+    "model": "block/tall_grass/white_jade_vine"
+  }
+}

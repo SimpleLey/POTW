@@ -1,5 +1,6 @@
 {
   "id": "barrel",
+  "type": "transparent",
   "displayName": {
     "en_us": "Barrel",
     "zh_cn": "酒桶"
@@ -7,7 +8,6 @@
   "occlusion": false,
   "feature": {
     "model": "block/basic/barrel",
-    "facing": "true"
-  },
-  "type": "transparent"
+    "facing": true
+  }
 }

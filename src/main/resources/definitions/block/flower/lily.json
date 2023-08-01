@@ -1,0 +1,11 @@
+{
+  "id": "lily",
+  "type": "flower",
+  "displayName": {
+    "en_us": "Lily",
+    "zh_cn": "黄色铃兰"
+  },
+  "feature": {
+    "model": "block/flower/lily"
+  }
+}

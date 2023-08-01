@@ -89,6 +89,9 @@ public enum BlockLoader implements ContentLoader<Block> {
         var definition = pair.first();
 
         if (definition.getFeature().getModel() != null) {
+            if (definition.getType().equalsIgnoreCase("tall_flower") || definition.getType().equalsIgnoreCase("tall_grass")) {
+                return BlockStateGenerator.ofLowerOnly(definition.getFeature().getModel().toString());
+            }
             if (definition.getFeature().getFacing()) {
                 return BlockStateGenerator.ofFacing(definition.getFeature().getModel().toString());
             }

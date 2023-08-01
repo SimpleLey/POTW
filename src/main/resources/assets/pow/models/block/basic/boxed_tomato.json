@@ -1271,6 +1271,7 @@
     14,
     15
   ],
+  "render_type": "translucent",
   "display": {
     "gui": {
       "rotation": [

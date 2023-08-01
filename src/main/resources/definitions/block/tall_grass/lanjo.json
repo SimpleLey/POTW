@@ -1,0 +1,11 @@
+{
+  "id": "lanjo",
+  "type": "tall_grass",
+  "displayName": {
+    "en_us": "Lanjo",
+    "zh_cn": "兰藤"
+  },
+  "feature": {
+    "model": "block/tall_grass/lanjo"
+  }
+}

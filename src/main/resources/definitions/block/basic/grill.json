@@ -1,0 +1,13 @@
+{
+  "id": "grill",
+  "type": "transparent",
+  "displayName": {
+    "en_us": "Grill",
+    "zh_cn": "烧烤炉"
+  },
+  "occlusion": false,
+  "feature": {
+    "model": "block/basic/grill",
+    "facing": true
+  }
+}

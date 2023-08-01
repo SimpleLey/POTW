@@ -66,7 +66,7 @@ public enum ItemGroupLoader implements ContentLoader<CreativeModeTab> {
                 register.register(definition.getId().getPath(), () -> CreativeModeTab.builder()
                         .title(MutableComponent.create(new LocalizedComponentContents(definition.getDisplayName())))
                         .icon(() -> Optional.ofNullable(tabItems.get(definition.getId()))
-                                .map(it -> !it.isEmpty() ? it.get(0) : null)
+                                .map(it -> !it.isEmpty() ? it.get(it.size() - 1) : null)
                                 .map(it -> new ItemStack(it.asItem(), 1))
                                 .orElse(null))
                         .withSearchBar()
