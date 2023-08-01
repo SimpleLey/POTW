@@ -5,7 +5,7 @@
     "zh_cn": "致幻蘑菇"
   },
   "feature": {
-    "layer": "pow:item/food/to_the_fantasy_mushroom"
+    "layer": "item/food/to_the_fantasy_mushroom"
   },
   "food": {
     "nutrition": 5,

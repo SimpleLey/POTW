@@ -5,7 +5,7 @@
     "zh_cn": "蓝莓酱"
   },
   "feature": {
-    "layer": "pow:item/food/blueberry_jam"
+    "layer": "item/food/blueberry_jam"
   },
   "food": {
     "nutrition": 5,

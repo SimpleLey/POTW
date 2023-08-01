@@ -5,6 +5,6 @@
     "zh_cn": "亚麻"
   },
   "feature": {
-    "layer": "pow:item/other/flax"
+    "layer": "item/other/flax"
   }
 }

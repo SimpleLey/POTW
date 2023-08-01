@@ -5,7 +5,7 @@
     "zh_cn": "苹果汁"
   },
   "feature": {
-    "layer": "pow:item/food/apple_juice"
+    "layer": "item/food/apple_juice"
   },
   "food": {
     "nutrition": 5,

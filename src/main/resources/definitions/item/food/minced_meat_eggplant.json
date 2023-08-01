@@ -5,7 +5,7 @@
     "zh_cn": "肉末茄子"
   },
   "feature": {
-    "layer": "pow:item/food/minced_meat_eggplant"
+    "layer": "item/food/minced_meat_eggplant"
   },
   "food": {
     "nutrition": 5,

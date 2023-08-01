@@ -5,6 +5,6 @@
     "zh_cn": "蓝宝石"
   },
   "feature": {
-    "layer": "pow:item/gem/sapphire"
+    "layer": "item/gem/sapphire"
   }
 }

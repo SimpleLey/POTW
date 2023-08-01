@@ -5,7 +5,7 @@
     "zh_cn": "肥茄"
   },
   "feature": {
-    "layer": "pow:item/food/fertilizer"
+    "layer": "item/food/fertilizer"
   },
   "food": {
     "nutrition": 5,

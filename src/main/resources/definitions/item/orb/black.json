@@ -5,6 +5,6 @@
     "zh_cn": "黑色宝石"
   },
   "feature": {
-    "layer": "pow:item/orb/black"
+    "layer": "item/orb/black"
   }
 }

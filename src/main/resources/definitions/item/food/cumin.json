@@ -5,7 +5,7 @@
     "zh_cn": "孜然果实"
   },
   "feature": {
-    "layer": "pow:item/food/cumin"
+    "layer": "item/food/cumin"
   },
   "food": {
     "nutrition": 5,

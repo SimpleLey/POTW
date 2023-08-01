@@ -5,6 +5,6 @@
     "zh_cn": "辣椒粉"
   },
   "feature": {
-    "layer": "pow:item/powder/paprika"
+    "layer": "item/powder/paprika"
   }
 }

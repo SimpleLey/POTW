@@ -5,7 +5,7 @@
     "zh_cn": "树莓酱"
   },
   "feature": {
-    "layer": "pow:item/food/raspberry_sauce"
+    "layer": "item/food/raspberry_sauce"
   },
   "food": {
     "nutrition": 5,

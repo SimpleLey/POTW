@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "refmap": "mixins.potw.refmap.json",
+  "package": "org.totemcraft.potw.mixin",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinModelBakery"
+  ],
+  "server": [
+
+  ]
+}

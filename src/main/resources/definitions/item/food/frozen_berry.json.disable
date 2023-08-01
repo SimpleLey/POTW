@@ -1,0 +1,14 @@
+{
+  "id": "frozen_berry",
+  "displayName": {
+    "en_us": "Frozen Berry",
+    "zh_cn": "冷冻浆果"
+  },
+  "feature": {
+    "layer": "item/food/frozen_berry"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

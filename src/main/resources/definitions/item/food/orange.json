@@ -5,7 +5,7 @@
     "zh_cn": "橙子"
   },
   "feature": {
-    "layer": "pow:item/food/orange"
+    "layer": "item/food/orange"
   },
   "food": {
     "nutrition": 5,

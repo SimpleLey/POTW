@@ -5,7 +5,7 @@
     "zh_cn": "藤椒果实"
   },
   "feature": {
-    "layer": "pow:item/food/vine_chili_fruit"
+    "layer": "item/food/vine_chili_fruit"
   },
   "food": {
     "nutrition": 5,

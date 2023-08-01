@@ -8,6 +8,7 @@
   "occlusion": false,
   "feature": {
     "model": "block/plant/massachuset",
-    "facing": true
+    "facing": true,
+    "layer": "item/food/massachuset"
   }
 }

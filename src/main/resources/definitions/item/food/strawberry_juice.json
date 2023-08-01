@@ -5,7 +5,7 @@
     "zh_cn": "草莓汁"
   },
   "feature": {
-    "layer": "pow:item/food/strawberry_juice"
+    "layer": "item/food/strawberry_juice"
   },
   "food": {
     "nutrition": 5,

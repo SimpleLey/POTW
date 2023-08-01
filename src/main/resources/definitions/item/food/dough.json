@@ -5,7 +5,7 @@
     "zh_cn": "面团"
   },
   "feature": {
-    "layer": "pow:item/food/dough"
+    "layer": "item/food/dough"
   },
   "food": {
     "nutrition": 5,

@@ -9,6 +9,6 @@
   "feature": {
     "model": "block/plant/blueberry",
     "facing": true,
-    "layer": "pow:item/food/blueberry"
+    "layer": "item/food/blueberry"
   }
 }

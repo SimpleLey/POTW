@@ -5,6 +5,6 @@
     "zh_cn": "鬼魂"
   },
   "feature": {
-    "layer": "pow:item/other/ghost"
+    "layer": "item/other/ghost"
   }
 }

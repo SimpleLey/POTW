@@ -5,7 +5,7 @@
     "zh_cn": "草莓果实"
   },
   "feature": {
-    "layer": "pow:item/food/strawberry"
+    "layer": "item/food/strawberry"
   },
   "food": {
     "nutrition": 5,

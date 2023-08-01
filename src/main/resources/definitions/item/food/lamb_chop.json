@@ -5,7 +5,7 @@
     "zh_cn": "羊排"
   },
   "feature": {
-    "layer": "pow:item/food/lamb_chop"
+    "layer": "item/food/lamb_chop"
   },
   "food": {
     "nutrition": 5,

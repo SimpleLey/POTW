@@ -5,7 +5,7 @@
     "zh_cn": "芝麻果实"
   },
   "feature": {
-    "layer": "pow:item/food/sesame_fruit"
+    "layer": "item/food/sesame_fruit"
   },
   "food": {
     "nutrition": 5,

@@ -9,6 +9,6 @@
   "feature": {
     "model": "block/plant/pine",
     "facing": true,
-    "layer": "pow:item/food/pine"
+    "layer": "item/food/pine"
   }
 }

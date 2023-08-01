@@ -5,7 +5,7 @@
     "zh_cn": "草莓蛋糕"
   },
   "feature": {
-    "layer": "pow:item/food/strawberry_cake"
+    "layer": "item/food/strawberry_cake"
   },
   "food": {
     "nutrition": 5,

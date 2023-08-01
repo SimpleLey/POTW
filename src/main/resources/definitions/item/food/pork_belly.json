@@ -5,7 +5,7 @@
     "zh_cn": "五花肉"
   },
   "feature": {
-    "layer": "pow:item/food/pork_belly"
+    "layer": "item/food/pork_belly"
   },
   "food": {
     "nutrition": 5,

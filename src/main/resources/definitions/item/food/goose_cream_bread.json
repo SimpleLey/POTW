@@ -5,7 +5,7 @@
     "zh_cn": "鹅膏菌面包"
   },
   "feature": {
-    "layer": "pow:item/food/goose_cream_bread"
+    "layer": "item/food/goose_cream_bread"
   },
   "food": {
     "nutrition": 5,

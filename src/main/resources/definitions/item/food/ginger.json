@@ -5,7 +5,7 @@
     "zh_cn": "生姜"
   },
   "feature": {
-    "layer": "pow:item/food/ginger"
+    "layer": "item/food/ginger"
   },
   "food": {
     "nutrition": 5,

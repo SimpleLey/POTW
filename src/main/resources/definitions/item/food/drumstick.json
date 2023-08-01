@@ -5,7 +5,7 @@
     "zh_cn": "鸡腿"
   },
   "feature": {
-    "layer": "pow:item/food/drumstick"
+    "layer": "item/food/drumstick"
   },
   "food": {
     "nutrition": 5,

@@ -5,7 +5,7 @@
     "zh_cn": "草莓酱"
   },
   "feature": {
-    "layer": "pow:item/food/strawberry_jam"
+    "layer": "item/food/strawberry_jam"
   },
   "food": {
     "nutrition": 5,

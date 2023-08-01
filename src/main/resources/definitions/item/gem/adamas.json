@@ -5,6 +5,6 @@
     "zh_cn": "金刚石"
   },
   "feature": {
-    "layer": "pow:item/gem/adamas"
+    "layer": "item/gem/adamas"
   }
 }

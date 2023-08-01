@@ -8,6 +8,7 @@
   "occlusion": false,
   "feature": {
     "model": "block/plant/frozen_berry",
-    "facing": true
+    "facing": true,
+    "layer": "item/food/frozen_berry"
   }
 }

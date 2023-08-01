@@ -5,6 +5,6 @@
     "zh_cn": "暗黑灵魂"
   },
   "feature": {
-    "layer": "pow:item/other/dark_soul"
+    "layer": "item/other/dark_soul"
   }
 }

@@ -3,5 +3,6 @@
   "displayName": {
     "en_us": "Picnic Blocks",
     "zh_cn": "世野之炊 方块"
-  }
+  },
+  "icon": "potw:wine_table"
 }

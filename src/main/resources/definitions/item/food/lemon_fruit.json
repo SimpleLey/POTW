@@ -5,7 +5,7 @@
     "zh_cn": "柠檬果实"
   },
   "feature": {
-    "layer": "pow:item/food/lemon_fruit"
+    "layer": "item/food/lemon_fruit"
   },
   "food": {
     "nutrition": 5,

@@ -9,6 +9,6 @@
   "feature": {
     "model": "block/plant/tomato",
     "facing": true,
-    "layer": "pow:item/food/tomato"
+    "layer": "item/food/tomato"
   }
 }

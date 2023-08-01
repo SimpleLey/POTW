@@ -5,6 +5,6 @@
     "zh_cn": "简易切割刀"
   },
   "feature": {
-    "layer": "pow:item/other/simple_cutting_knife"
+    "layer": "item/other/simple_cutting_knife"
   }
 }

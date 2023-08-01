@@ -5,7 +5,7 @@
     "zh_cn": "西瓜汁"
   },
   "feature": {
-    "layer": "pow:item/food/watermelon_juice"
+    "layer": "item/food/watermelon_juice"
   },
   "food": {
     "nutrition": 5,

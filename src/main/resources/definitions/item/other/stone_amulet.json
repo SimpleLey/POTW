@@ -5,6 +5,6 @@
     "zh_cn": "石质护符"
   },
   "feature": {
-    "layer": "pow:item/other/stone_amulet"
+    "layer": "item/other/stone_amulet"
   }
 }

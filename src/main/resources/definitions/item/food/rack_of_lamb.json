@@ -5,7 +5,7 @@
     "zh_cn": "烤羊排"
   },
   "feature": {
-    "layer": "pow:item/food/rack_of_lamb"
+    "layer": "item/food/rack_of_lamb"
   },
   "food": {
     "nutrition": 5,

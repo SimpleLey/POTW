@@ -5,7 +5,7 @@
     "zh_cn": "长直茄"
   },
   "feature": {
-    "layer": "pow:item/food/long_niggut"
+    "layer": "item/food/long_niggut"
   },
   "food": {
     "nutrition": 5,

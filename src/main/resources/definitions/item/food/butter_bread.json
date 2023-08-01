@@ -5,7 +5,7 @@
     "zh_cn": "黄油面包"
   },
   "feature": {
-    "layer": "pow:item/food/butter_bread"
+    "layer": "item/food/butter_bread"
   },
   "food": {
     "nutrition": 5,

@@ -5,6 +5,6 @@
     "zh_cn": "海蓝宝石"
   },
   "feature": {
-    "layer": "pow:item/gem/aquamarine"
+    "layer": "item/gem/aquamarine"
   }
 }

@@ -5,7 +5,7 @@
     "zh_cn": "香蕉"
   },
   "feature": {
-    "layer": "pow:item/food/banana"
+    "layer": "item/food/banana"
   },
   "food": {
     "nutrition": 5,

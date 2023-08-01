@@ -5,7 +5,7 @@
     "zh_cn": "烤鸡腿"
   },
   "feature": {
-    "layer": "pow:item/food/grilled_chicken_leg"
+    "layer": "item/food/grilled_chicken_leg"
   },
   "food": {
     "nutrition": 5,

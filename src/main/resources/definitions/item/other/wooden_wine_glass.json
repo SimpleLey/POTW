@@ -5,6 +5,6 @@
     "zh_cn": "wooden_wine_glass"
   },
   "feature": {
-    "layer": "pow:item/other/wooden_wine_glass"
+    "layer": "item/other/wooden_wine_glass"
   }
 }

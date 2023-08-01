@@ -9,6 +9,6 @@
   "feature": {
     "model": "block/plant/to_the_fantasy_mushroom",
     "facing": true,
-    "layer": "pow:item/food/to_the_fantasy_mushroom"
+    "layer": "item/food/to_the_fantasy_mushroom"
   }
 }

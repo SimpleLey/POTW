@@ -5,6 +5,6 @@
     "zh_cn": "盐"
   },
   "feature": {
-    "layer": "pow:item/powder/salt"
+    "layer": "item/powder/salt"
   }
 }

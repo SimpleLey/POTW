@@ -5,7 +5,7 @@
     "zh_cn": "烤马勃"
   },
   "feature": {
-    "layer": "pow:item/food/roast"
+    "layer": "item/food/roast"
   },
   "food": {
     "nutrition": 5,

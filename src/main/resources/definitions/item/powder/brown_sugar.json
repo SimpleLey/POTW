@@ -5,6 +5,6 @@
     "zh_cn": "红糖"
   },
   "feature": {
-    "layer": "pow:item/powder/brown_sugar"
+    "layer": "item/powder/brown_sugar"
   }
 }

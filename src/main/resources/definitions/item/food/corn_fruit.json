@@ -5,7 +5,7 @@
     "zh_cn": "玉米果实"
   },
   "feature": {
-    "layer": "pow:item/food/corn_fruit"
+    "layer": "item/food/corn_fruit"
   },
   "food": {
     "nutrition": 5,

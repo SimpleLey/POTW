@@ -5,7 +5,7 @@
     "zh_cn": "葱（作物）"
   },
   "feature": {
-    "layer": "pow:item/food/onion_crop"
+    "layer": "item/food/onion_crop"
   },
   "food": {
     "nutrition": 5,

@@ -5,6 +5,6 @@
     "zh_cn": "黄金灵魂"
   },
   "feature": {
-    "layer": "pow:item/other/golden_soul"
+    "layer": "item/other/golden_soul"
   }
 }

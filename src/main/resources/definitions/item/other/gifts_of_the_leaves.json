@@ -5,6 +5,6 @@
     "zh_cn": "叶子的礼物"
   },
   "feature": {
-    "layer": "pow:item/other/gifts_of_the_leaves"
+    "layer": "item/other/gifts_of_the_leaves"
   }
 }

@@ -5,7 +5,7 @@
     "zh_cn": "辣椒"
   },
   "feature": {
-    "layer": "pow:item/food/chili"
+    "layer": "item/food/chili"
   },
   "food": {
     "nutrition": 5,

@@ -5,7 +5,7 @@
     "zh_cn": "奶酪"
   },
   "feature": {
-    "layer": "pow:item/food/cheese"
+    "layer": "item/food/cheese"
   },
   "food": {
     "nutrition": 5,

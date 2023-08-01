@@ -5,7 +5,7 @@
     "zh_cn": "蓝莓"
   },
   "feature": {
-    "layer": "pow:item/food/blueberry"
+    "layer": "item/food/blueberry"
   },
   "food": {
     "nutrition": 5,

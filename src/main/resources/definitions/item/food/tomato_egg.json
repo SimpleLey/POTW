@@ -5,7 +5,7 @@
     "zh_cn": "番茄炒蛋"
   },
   "feature": {
-    "layer": "pow:item/food/tomato_egg"
+    "layer": "item/food/tomato_egg"
   },
   "food": {
     "nutrition": 5,

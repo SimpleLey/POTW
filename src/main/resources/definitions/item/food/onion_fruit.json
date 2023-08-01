@@ -5,7 +5,7 @@
     "zh_cn": "洋葱果实"
   },
   "feature": {
-    "layer": "pow:item/food/onion_fruit"
+    "layer": "item/food/onion_fruit"
   },
   "food": {
     "nutrition": 5,

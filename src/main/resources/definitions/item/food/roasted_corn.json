@@ -5,7 +5,7 @@
     "zh_cn": "烤玉米"
   },
   "feature": {
-    "layer": "pow:item/food/roasted_corn"
+    "layer": "item/food/roasted_corn"
   },
   "food": {
     "nutrition": 5,

@@ -5,7 +5,7 @@
     "zh_cn": "松露"
   },
   "feature": {
-    "layer": "pow:item/food/reworch"
+    "layer": "item/food/reworch"
   },
   "food": {
     "nutrition": 5,

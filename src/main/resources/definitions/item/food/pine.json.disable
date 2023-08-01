@@ -5,7 +5,7 @@
     "zh_cn": "松茸"
   },
   "feature": {
-    "layer": "pow:item/food/pine"
+    "layer": "item/food/pine"
   },
   "food": {
     "nutrition": 5,

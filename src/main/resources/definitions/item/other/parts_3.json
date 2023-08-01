@@ -5,6 +5,6 @@
     "zh_cn": "零件3"
   },
   "feature": {
-    "layer": "pow:item/other/parts_3"
+    "layer": "item/other/parts_3"
   }
 }

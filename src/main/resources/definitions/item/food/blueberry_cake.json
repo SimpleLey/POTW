@@ -5,7 +5,7 @@
     "zh_cn": "蓝莓蛋糕"
   },
   "feature": {
-    "layer": "pow:item/food/blueberry_cake"
+    "layer": "item/food/blueberry_cake"
   },
   "food": {
     "nutrition": 5,

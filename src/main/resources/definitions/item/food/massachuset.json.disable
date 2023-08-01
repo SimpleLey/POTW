@@ -1,0 +1,14 @@
+{
+  "id": "massachuset",
+  "displayName": {
+    "en_us": "Massachuset",
+    "zh_cn": "马勃"
+  },
+  "feature": {
+    "layer": "item/food/massachuset"
+  },
+  "food": {
+    "nutrition": 5,
+    "saturationMod": 0.6
+  }
+}

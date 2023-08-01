@@ -5,6 +5,6 @@
     "zh_cn": "红宝石"
   },
   "feature": {
-    "layer": "pow:item/gem/ruby"
+    "layer": "item/gem/ruby"
   }
 }

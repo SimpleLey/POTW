@@ -5,6 +5,6 @@
     "zh_cn": "辉石"
   },
   "feature": {
-    "layer": "pow:item/gem/pyroxene"
+    "layer": "item/gem/pyroxene"
   }
 }

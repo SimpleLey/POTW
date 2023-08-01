@@ -5,7 +5,7 @@
     "zh_cn": "西红柿"
   },
   "feature": {
-    "layer": "pow:item/food/tomato"
+    "layer": "item/food/tomato"
   },
   "food": {
     "nutrition": 5,

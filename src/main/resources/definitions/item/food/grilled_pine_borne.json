@@ -5,7 +5,7 @@
     "zh_cn": "烤松茸"
   },
   "feature": {
-    "layer": "pow:item/food/grilled_pine_borne"
+    "layer": "item/food/grilled_pine_borne"
   },
   "food": {
     "nutrition": 5,

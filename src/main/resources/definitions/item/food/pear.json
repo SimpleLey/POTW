@@ -5,7 +5,7 @@
     "zh_cn": "梨子"
   },
   "feature": {
-    "layer": "pow:item/food/pear"
+    "layer": "item/food/pear"
   },
   "food": {
     "nutrition": 5,

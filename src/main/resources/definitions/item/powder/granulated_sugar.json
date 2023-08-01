@@ -5,6 +5,6 @@
     "zh_cn": "砂糖"
   },
   "feature": {
-    "layer": "pow:item/powder/granulated_sugar"
+    "layer": "item/powder/granulated_sugar"
   }
 }

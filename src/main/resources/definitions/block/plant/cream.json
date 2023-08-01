@@ -8,6 +8,7 @@
   "occlusion": false,
   "feature": {
     "model": "block/plant/cream",
+    "layer": "item/food/cream",
     "facing": true
   }
 }

@@ -5,7 +5,7 @@
     "zh_cn": "黄油"
   },
   "feature": {
-    "layer": "pow:item/food/butter"
+    "layer": "item/food/butter"
   },
   "food": {
     "nutrition": 5,

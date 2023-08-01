@@ -5,6 +5,6 @@
     "zh_cn": "橙色宝石"
   },
   "feature": {
-    "layer": "pow:item/orb/orange"
+    "layer": "item/orb/orange"
   }
 }

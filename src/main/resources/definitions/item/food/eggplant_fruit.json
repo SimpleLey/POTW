@@ -5,7 +5,7 @@
     "zh_cn": "茄子果实"
   },
   "feature": {
-    "layer": "pow:item/food/eggplant_fruit"
+    "layer": "item/food/eggplant_fruit"
   },
   "food": {
     "nutrition": 5,

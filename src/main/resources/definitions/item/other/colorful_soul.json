@@ -5,6 +5,6 @@
     "zh_cn": "七彩灵魂"
   },
   "feature": {
-    "layer": "pow:item/other/colorful_soul"
+    "layer": "item/other/colorful_soul"
   }
 }

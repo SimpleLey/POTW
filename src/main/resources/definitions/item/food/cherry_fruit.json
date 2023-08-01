@@ -5,7 +5,7 @@
     "zh_cn": "樱桃果实"
   },
   "feature": {
-    "layer": "pow:item/food/cherry_fruit"
+    "layer": "item/food/cherry_fruit"
   },
   "food": {
     "nutrition": 5,

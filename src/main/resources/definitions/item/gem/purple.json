@@ -11,6 +11,6 @@
     ]
   },
   "feature": {
-    "layer": "pow:item/gem/purple_gem"
+    "layer": "item/gem/purple_gem"
   }
 }
